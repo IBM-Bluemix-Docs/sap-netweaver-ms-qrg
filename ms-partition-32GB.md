@@ -1,0 +1,29 @@
+---
+
+
+
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-02-08"
+
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
+# 3. Partitioning and file systems
+{: #partition_32GB}
+
+For the single-node example, a server with one logical disk (on RAID1) was ordered. There is one mirrored disk appearing in the operating system (OS)—with one large file system equal to the total size of the ordered disk.
+
+Regarding storage, the server does not require any further installation steps.
+
+## Next Steps
+
+  * [Adding external storage to your {{site.data.keyword.baremetal_short}}](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-server.html)
+  * [Installing your SAP applications and software](/docs/infrastructur/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
