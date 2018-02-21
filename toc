@@ -26,7 +26,6 @@ SAP NetWeaver on IBM Cloud - Quick Reference Guide for Microsoft Windows
     Configuration
         ms-provisioning-external-storage-to-your-server.md
         ms-installing-your-SAP-landscape.md
-
     {: .navgroup-end}
 
     {: .navgroup id="help"}
