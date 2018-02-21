@@ -24,7 +24,7 @@ Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netwea
 ## Ordering your servers
 {: #order_servers}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com).
+1. Log in to the [{{site.data.keyword.cloud}} infrastructure customer portal](https://control.softlayer.com).
 2. Click the **Devices** icon on the Account Summary page.
 3. Click **Monthly** under **{{site.data.keyword.baremetal_long}}** on the Devices page. The Server List dialog box appears.
 4. Click the hyperlink under **STARTING PRICE PER MONTH** to select server **BI.S1.NW256**.
@@ -37,14 +37,10 @@ Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netwea
 1. Select **DAL10** for **Data Center**.
 2. Select the Microsoft Windows version of your choice as your **Operating System**.
 3. Under **Hard Drives**, select a second disk of the same type as the first one, create a RAID storage group of RAID1 from both disks, and choose **Windows Basic** as the **Partition Template**.
-
-Continue with the network configuration.
 4. Select **500 GB** for **Public Bandwidth**.
 5. Select **1 Gbps Redundant Public and Private Network Uplinks** and **Uplink Port Speed**.
-
-For this sample installation, leave the default values for all other fields. You can consult the SAP NetWeaver Implementation and Operations Guide (http://knowledgelayer.softlayer.com/procedure/sap-ibm-bluemix-infrastructure) for detailed descriptions of the options.
-
-6. Click **Add to Order** at the bottom of the page. You are redirected to the Checkout page after your order has been verified.
+6. For this sample installation, leave the default values for all other fields. You can consult [Setting up your bare metal servers](https://console.bluemix.net/docs/bare-metal/configuring.html#setting-up-your-bare-metal-servers) for detailed descriptions of the options.
+7. Click **Add to Order** at the bottom of the page. You are redirected to the Checkout page after your order has been verified.
 
 ## Setting up Advanced System Configurations
 {: #adv_config}
