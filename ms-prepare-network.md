@@ -29,4 +29,4 @@ The network setup of the deployed servers outlined in Figure 1 is found under Ne
 ## Next Steps
 
   * [Adding external storage to your {{site.data.keyword.baremetal_short}}](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
-  * [Installing your SAP applications and software](/docs/infrastructur/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
+  * [Installing your SAP applications and software](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
