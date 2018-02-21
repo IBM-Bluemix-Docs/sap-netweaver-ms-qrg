@@ -54,6 +54,6 @@ In the sample deployment, the data retrieved from the Storage tab was
    * User: `SL01SU276540-H896345`
    * Password: `EtJ79F4RA33dXm2q`
 
-Follow the steps in Connecting to MPIO iSCSCI LUNS on Microsoft Windows (https://console.bluemix.net/docs/infrastructure/BlockStorage/accessing-block-storage-windows.html#connecting-to-mpio-iscsi-luns-on-microsoft-windows) to connect your block storage to your database server using the data above. Follow the steps carefully; they lead to a new, “offline” disk available for your Windows server.
+Follow the steps in [Connecting to MPIO iSCSCI LUNS on Microsoft Windows](https://console.bluemix.net/docs/infrastructure/BlockStorage/accessing-block-storage-windows.html#connecting-to-mpio-iscsi-luns-on-microsoft-windows) to connect your block storage to your database server using the data above. Follow the steps carefully; they lead to a new, “offline” disk available for your Windows server.
 
 You can now bring the disk online and initialize it. 
