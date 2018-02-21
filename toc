@@ -12,7 +12,7 @@ SAP NetWeaver on IBM Cloud - Quick Reference Guide for Microsoft Windows
     {: .navgroup id="howto"}
     {: .topicgroup}
     Provisioning
-        ms-installing-32-GB-single-server-node.md
+        ms-installing-32-GB-server-single-node.md
         ms-set-up-infrastructure-32GB.md
         ms-prepare-server-32GB.md
         ms-partition-32GB.md
