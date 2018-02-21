@@ -19,7 +19,7 @@ lastupdated: "2018-02-09"
 # Adding external storage to your server
 {: #storage}
 
-## Setting up external storage
+## Configuring external storage
 {: #set_up_storage}
 
 External storage can be added to your provisioned server or servers if you want to use it as a backup device or use a snapshot to quickly restore your database in a test environment. In the example, block storage is used for both archiving log files of the database and online and offline backups for the database. The fastest block storage (4 IOPS per GB) was selected to help assure a minimum backup time. Slower block storage might be sufficient for your needs. For more information about {{site.data.keyword.blockstoragefull}}, see [Getting started with Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
@@ -40,13 +40,16 @@ External storage can be added to your provisioned server or servers if you want 
 |Select OS Type                    | Microsoft Windows                                 |
 {: caption="Table 1. Recommended values for block storage" caption-side="top"}
 
-5. Click **Continue**.
-6. Click **I have read the Master Service Agreement** and **Place Order**.
-7. Click **Actions** to the right of your LUN and select **Authorize Host** to access the provisioned storage.
-8. Select **Devices**; the **Device Type** defaults to Bare Metal Server. Click **Hardware** and select the host names of your database server.
-9. Click **Submit**.
-10. Check the status of your provisioned storage under **Devices** > (select your device) > **Storage** tab.
-11. Note the **Target Address** and iSCSI Qualified name (IQN) for your server (iSCSI initiator) and the **username** and **password** for authorization with the iSCSI server. That information is used to connect your block storage to your database server.
+## Authorizing hosts
+{: authorize-hosts}
+
+1. Click **Continue**.
+2. Click **I have read the Master Service Agreement** and **Place Order**.
+3. Click **Actions** to the right of your LUN and select **Authorize Host** to access the provisioned storage.
+4. Select **Devices**; the **Device Type** defaults to Bare Metal Server. Click **Hardware** and select the host names of your database server.
+5. Click **Submit**.
+6. Check the status of your provisioned storage under **Devices** > (select your device) > **Storage** tab.
+7. Note the **Target Address** and iSCSI Qualified name (IQN) for your server (iSCSI initiator) and the **username** and **password** for authorization with the iSCSI server. That information is used to connect your block storage to your database server.
 
 In the sample deployment, the data retrieved from the Storage tab was
    * Target IP: `10.2.62.78`
