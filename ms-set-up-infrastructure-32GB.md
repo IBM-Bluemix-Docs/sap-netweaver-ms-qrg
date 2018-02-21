@@ -37,10 +37,8 @@ lastupdated: "2018-1-3"
 3. Under **Hard Drives**, select a second disk of the same type as the first one, create a RAID storage group of RAID1 from both disks, and choose **Windows Basic** as the **Partition Template**.
 4. Select **500 GB** for **Public Bandwidth**.
 5. Select **1 Gbps Redundant Public and Private Network Uplinks** for **Uplink Port Speed**.
-
-For this sample installation, leave the default values for all other fields. For detailed option descriptions, see [Setting up your bare metal servers](https://console.bluemix.net/docs/bare-metal/configuring.html#setting-up-your-bare-metal-servers).
-
-6. Click **Add to Order** at the bottom of the page. You are redirected to the Checkout page after your order has been verified.
+6. For this sample installation, leave the default values for all other fields. For detailed option descriptions, see [Setting up your bare metal servers](https://console.bluemix.net/docs/bare-metal/configuring.html#setting-up-your-bare-metal-servers).
+7. Click **Add to Order** at the bottom of the page. You are redirected to the Checkout page after your order has been verified.
 
 ## Setting up Advanced System Configurations
 {: #adv_config}
