@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-1-3"
+lastupdated: "2018-02-23"
 
 
 ---
@@ -22,7 +22,7 @@ lastupdated: "2018-1-3"
 ## Ordering your server
 {: #order_32GB}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com).
+1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com) with your unique credentials.
 2. Click **Devices** on the Account Summary page.
 3. Click **Monthly** under Bare Metal Servers on the Devices page. The Server List dialog box appears.
 4. Click the hyperlink under **STARTING PRICE PER MONTH** to select server **BI.S1.NW32**.
