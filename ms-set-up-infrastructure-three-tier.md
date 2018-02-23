@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-02-23"
 
 
 ---
@@ -24,7 +24,7 @@ Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netwea
 ## Ordering your servers
 {: #order_servers}
 
-1. Log in to the [{{site.data.keyword.cloud}} infrastructure customer portal](https://control.softlayer.com).
+1. Log in to the [{{site.data.keyword.cloud}} infrastructure customer portal](https://control.softlayer.com) with your unique credentials.
 2. Click the **Devices** icon on the Account Summary page.
 3. Click **Monthly** under **{{site.data.keyword.baremetal_long}}** on the Devices page. The Server List dialog box appears.
 4. Click the hyperlink under **STARTING PRICE PER MONTH** to select server **BI.S1.NW256**.
