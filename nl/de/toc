@@ -1,0 +1,38 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sap-netweaver-ms-qrg" audience="compute" href="/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html"}
+SAP NetWeaver in IBM Cloud - Kurzübersicht für Microsoft Windows
+
+    {: .navgroup id="learn"}
+    ms-index.md
+    [SAP NetWeaver in IBM Cloud](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-index.html#getting-started)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Bereitstellung
+        ms-installing-32-GB-server-single-node.md
+        ms-set-up-infrastructure-32GB.md
+        ms-prepare-server-32GB.md
+        ms-partition-32GB.md
+        ms-installing-256-GB-32-GB-server-three-tier-setup.md
+        ms-set-up-infrastructure-three-tier.md
+        ms-prepare-server-256GB.md
+        ms-partition-256GB.md
+        ms-prepare-network.md
+
+    {: .topicgroup}
+    Konfiguration
+        ms-provisioning-external-storage-to-your-server.md
+        ms-installing-your-SAP-landscape.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [Support](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-support.html)
+
+    {: .topicgroup}
+    Häufig gestellte Fragen
+        [Häufig gestellte Fragen: SAP in IBM Cloud](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-faqs.html#faqs)
+        
+{: .navgroup-end}
