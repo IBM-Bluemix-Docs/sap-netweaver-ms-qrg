@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -31,5 +31,5 @@ Use the following links to begin your SAP NetWeaver on {{site.data.keyword.cloud
   
 ## Next Steps
 
-Use the links to learn how to provision and configure you SAP NetWeaver on {{site.data.keyword.cloud_notm}} environment.
+Use the links to learn how to provision and configure your {{site.data.keyword.cloud_notm}} SAP-certified infrastructure.
 
