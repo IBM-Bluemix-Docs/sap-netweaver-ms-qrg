@@ -42,7 +42,7 @@ lastupdated: "2018-07-09"
 10. Click **Done**.
 
 ##Selecting your additional server options
-{: #options_32GB
+{: #options_32GB}
 
 1. Select **500 GB** for **Public Bandwidth**.
 2. Select **1 Gbps Redundant Public and Private Network Uplinks** for **Uplink Port Speed**.
