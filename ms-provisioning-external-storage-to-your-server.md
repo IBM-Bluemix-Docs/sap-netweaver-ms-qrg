@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-26"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-02-26"
 
 External storage can be added to your provisioned server or servers if you want to use it as a backup device or use a snapshot to quickly restore your database in a test environment. In the example, block storage is used for both archiving log files of the database and online and offline backups for the database. The fastest block storage (4 IOPS per GB) was selected to help assure a minimum backup time. Slower block storage might be sufficient for your needs. For more information about {{site.data.keyword.blockstoragefull}}, see [Getting started with Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/).
+1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/) with your unique credentials.
 2. Select **Storage** > **Block Storage**.
 3. Click **Order Block Storage** in the upper-right corner of the Block Storage page.
 4. Select the specifics for your storage needs. Table 1 contains recommended values, including 4 IOPS/GB for a typical database workload.
