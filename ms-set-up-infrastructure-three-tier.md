@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-10"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-07-09"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 1. Ordering  256 GB and 3 2GB servers for a three-tier setup
+# 1. Ordering  256 GB and 32 GB servers for a three-tier setup
 {: #install_three_tier}
 
 Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-32GB.html#order_32GB) to order the SAP NetWeaver application server. The following steps guide you through ordering the database server. External storage is provisioned in a later step as backup space for the database for both archived log files and online full backups.
