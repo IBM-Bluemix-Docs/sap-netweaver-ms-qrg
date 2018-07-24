@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -22,34 +22,34 @@ lastupdated: "2018-07-09"
 ## Configuring external storage
 {: #set_up_storage}
 
-External storage can be added to your provisioned server or servers if you want to use it as a backup device or use a snapshot to quickly restore your database in a test environment. In the example, block storage is used for both archiving log files of the database and online and offline backups for the database. The fastest block storage (4 IOPS per GB) was selected to help assure a minimum backup time. Slower block storage might be sufficient for your needs. For more information about {{site.data.keyword.blockstoragefull}}, see [Getting started with Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
+External storage can be added to your provisioned server, or servers, if you want to use it as a backup device, or use a snapshot to quickly restore your database in a test environment. In the example, block storage is used for both archiving log files of the database and online and offline backups for the database. The fastest block storage (10 IOPS per GB) was selected to help assure a minimum backup time. Slower block storage might be sufficient for your needs. For more information about {{site.data.keyword.blockstoragefull}}, see [Getting started with Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com/) with your unique credentials.
 2. Select **Storage** > **Block Storage**.
 3. Click **Order Block Storage** in the upper-right corner of the Block Storage page.
-4. Select the specifics for your storage needs. Table 1 contains recommended values, including 4 IOPS/GB for a typical database workload.
+4. Select the specifics for your storage needs. Table 1 contains recommended values, including 10 IOPS/GB for a demanding database workload.
 
 |              Field               |      Value                                        |
 | -------------------------------- | ------------------------------------------------- |
-|Select Storage Type               | Endurance (default)                               |
 |Location                          | DAL10                                             |
 |Billing Method                    | Monthly (default)                                 |
-|Select Storage Package            | 4 IOPS/GB                                         |
-|Select Storage Size               | 1000 GB                                           |
-|Specify Snapshot Space Size       | 0 GB                                              |
-|Select OS Type                    | Microsoft Windows                                 |
+|New Storage Size                  | 1000 GB                                           |
+|Storage IOPS Options              | Endurance (Tiered IOPS) (default)                 |
+|Endurance Tiered IOPS             | 10 GB                                             |
+|Snapshot Space Size               | 0 GB                                              |
+|OS Type                           | Windows 2008+                                     |
 {: caption="Table 1. Recommended values for block storage" caption-side="top"}
+
+5. Click the two checkboxes, and click **Place Order**.
 
 ## Authorizing hosts
 {: authorize-hosts}
 
-1. Click **Continue**.
-2. Click **I have read the Master Service Agreement** and **Place Order**.
-3. Click **Actions** to the right of your LUN and select **Authorize Host** to access the provisioned storage.
-4. Select **Devices**; the **Device Type** defaults to Bare Metal Server. Click **Hardware** and select the host names of your database server.
-5. Click **Submit**.
-6. Check the status of your provisioned storage under **Devices** > (select your device) > **Storage** tab.
-7. Note the **Target Address** and iSCSI Qualified name (IQN) for your server (iSCSI initiator) and the **username** and **password** for authorization with the iSCSI server. That information is used to connect your block storage to your database server.
+1. Click **Actions** to the right of your LUN and select **Authorize Host** to access the provisioned storage.
+2. Select **Devices**; the **Device Type** defaults to Bare Metal Server. Click **Hardware** and select the host names of your database server.
+3. Click **Submit**.
+4. Check the status of your provisioned storage under **Devices** > (select your device) > **Storage** tab.
+5. Note the **Target Address** and iSCSI Qualified name (IQN) for your server (iSCSI initiator) and the **username** and **password** for authorization with the iSCSI server. That information is used to connect your block storage to your database server.
 
 In the sample deployment, the data retrieved from the Storage tab was
    * Target IP: `10.2.62.78`
