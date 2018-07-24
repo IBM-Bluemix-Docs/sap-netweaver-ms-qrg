@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-07-09"
 # 3. Partitioning and file systems
 {: #partition_32GB}
 
-For the single-node example, a server with one logical disk (on RAID1) was ordered. There is one mirrored disk appearing in the operating system (OS)—with one large file system equal to the total size of the ordered disk.
+For the single-node example, a server with one logical disk (on RAID 1) was ordered. There is one mirrored disk appearing in the operating system (OS)—with one large file system equal to the total size of the ordered disk.
 
 Regarding storage, the server does not require any further installation steps.
 
