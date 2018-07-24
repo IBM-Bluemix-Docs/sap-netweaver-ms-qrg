@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-07-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -25,7 +25,7 @@ lastupdated: "2018-07-09"
 1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com) with your unique credentials.
 2. Click **Devices** on the Account Summary page.
 3. Click **Monthly** under {{site.data.keyword.baremetal_short}} on the Devices page. The Server List appears; the SAP-Certified Servers are at the top of the list.
-4. Click the hyperlink under **STARTING PRICE PER MONTH** to select server **BI.S1.NW32 (OS Options)**.
+4. Click the hyperlink under **STARTING PRICE PER MONTH** to select server **BI.S3.NW32 (OS Options)**.
 
 ## Configuring your server
 {: #configure_server}
@@ -35,13 +35,13 @@ lastupdated: "2018-07-09"
 3. **Server** defaults to a predefined value based on your server selection and cannot be change changed.
 4. Click **32 GB RAM** even though the **RAM** selection defaults to a predefined value based on your sever selection and cannot be changed.
 5. Select the Microsoft Windows version of your choice as your **Operating System**.
-6. Add a second 2 TB SATA drive clicking the **Disk Controller 1** drop-down menu, and selecting **2 TB SATA**. Click **Add Disk**.
-7. Click **Select All Disks** and click **Create RAID Storage Groups**.
+6. Add a second 2 TB SATA drive by verifying **Disk Controller 1** defaults to **2 TB SATA**. Click **Add Disk**.
+7. Click **Select All Disks** and click **Create RAID storage group**.
 8. Click **Type** and select **RAID 1**. Enter a **Size** that covers the total amount of storage you need.
 9. Leave **LVM** unchecked and accept the default **Partition Template**, **Windows Basic**.
 10. Click **Done**.
 
-##Selecting your additional server options
+## Selecting your additional server options
 {: #options_32GB}
 
 1. Select **500 GB** for **Public Bandwidth**.
@@ -62,8 +62,8 @@ Use the values in Table 1 for the fields under Advanced System Configuration. Mo
 |Subnet                            | Select from the drop-down list, for example, `10.177.119.192/26`     |
 |Frontend VLAN                     | Select from the drop-down list, for example, `dal10.fcr01a.926`      |
 |Subnet                            | Select from the drop-down list, for example, `169.46.15.96/27`       |
-|Provision Scripts                 | Defaults to None                                                     |
-|SSH Keys                          | Add                                                                  |
+|Provision Scripts                 | Leave blank.                                                         |
+|SSH Keys                          | Defaults to `Add`, which means no SSH key                            |
 |Hostname                          | For example, `e2e1270`                                               |
 |Domain                            | For example, `saptest.com`                                           |
 {: caption="Table 1. 32 GB advanced configuration values" caption-side="top"}  
