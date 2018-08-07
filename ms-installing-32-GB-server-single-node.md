@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-07-09"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-07-09"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Creating a 32 GB single-node server
+# Provisioning a 32 GB single-node server
 
 Use the steps in Table 1 to provision your 32 GB single-node server for SAP NetWeaver in an {{site.data.keyword.cloud}} environment.
 
