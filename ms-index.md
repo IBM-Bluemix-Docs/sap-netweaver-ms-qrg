@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-07"
+lastupdated: "2018-08-13"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-08-07"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Getting started with SAP NetWeaver on IBM Cloud Quick Reference for Microsoft Windows
+# Getting started tutorial
 
 The following guidance provides an introduction for customers who are new to the {{site.data.keyword.cloud}} environment and would prefer a quick start format versus more detailed documentation. Two sample configurations-32 GB single-node server, and three tiers with 192 GB and 32 GB servers-help you through the ordering process to the start of the SAP installation.
 
