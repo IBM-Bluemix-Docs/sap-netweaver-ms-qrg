@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-07-12"
+lastupdated: "2018-08-13"
 
 
 ---
@@ -23,7 +23,7 @@ lastupdated: "2018-07-12"
 {: #order_32GB}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} infrastructure customer portal](https://control.softlayer.com) with your unique credentials.
-2. Click **Devices** on the Account Summary page.
+2. Click **Account** > **Place an Order** on the Account Summary page.
 3. Click **Monthly** under {{site.data.keyword.baremetal_short}} on the Devices page. The Server List appears; the SAP-Certified Servers are at the top of the list.
 4. Click the hyperlink under **STARTING PRICE PER MONTH** to select server **BI.S3.NW32 (OS Options)**.
 
@@ -34,7 +34,7 @@ lastupdated: "2018-07-12"
 2. Select **DAL10** for **Data Center**. The list of data centers depends on product availability within a particular data center.
 3. **Server** defaults to a predefined value based on your server selection and cannot be change changed.
 4. Click **32 GB RAM** even though the **RAM** selection defaults to a predefined value based on your sever selection and cannot be changed.
-5. Select the Microsoft Windows version of your choice as your **Operating System**.
+5. Select the Microsoft Windows version of your choice as your **Operating System**. **Note**: If you are bringing your own license (BYOL) for your operating system, select **Other** > **No Operating System**. For more information, see [Bring your own license](#byol).
 6. Add a second 2 TB SATA drive by verifying **Disk Controller 1** defaults to **2 TB SATA**. Click **Add Disk**.
 7. Click **Select All Disks** and click **Create RAID storage group**.
 8. Click **Type** and select **RAID 1**. Enter a **Size** that covers the total amount of storage you need.
@@ -75,6 +75,11 @@ Use the values in Table 1 for the fields under Advanced System Configuration. Mo
 2. Click **Submit Order** on the right-hand side of the form. You are redirected to a page with your order number. You can print the page, because it is also your order receipt. In addition, you receive a confirmation email with the subject *Your IBM Cloud Order ## has been approved* with ## being your order number.
 
 After the order is submitted, the server, depending on your order, is available for use within one to four hours. You can check the Device Details screen on the main Customer Portal page (**Devices** > **Device List**) for a status of the provisioning steps. Click the **Device Name** that matches your given Hostname and Domain to see its status.
+
+## Bring your own license
+{: #byol}
+
+When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](https://console.bluemix.net/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-).
 
 ## Next Steps
 
