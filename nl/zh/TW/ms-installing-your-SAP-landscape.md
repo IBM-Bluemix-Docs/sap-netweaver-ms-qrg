@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -24,8 +24,8 @@ lastupdated: "2018-02-09"
 
 您需要 SAP S 使用者 ID 及「下載授權」來下載 DVD。如需 SAP S 使用者 ID 的相關資訊，請參閱[如何設定 S 使用者 ID](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77)。
 
-1. 登入 [SAP 服務市場](https://websmp201.sap-ag.de/)，並將必要 DVD 下載至本端共用磁碟機。
-2 將檔案傳送至已佈建的伺服器。 
+1. 登入 [SAP Support Portal](https://support.sap.com/en/index.html)、按一下 **Download Software**，並將必要 DVD 下載至本端共用磁碟機。
+2. 將檔案傳送至已佈建的伺服器。 
 
 另一個選項是下載 [SAP 軟體下載管理員](https://support.sap.com/en/my-support/software-downloads.html#section_995042677)，並將它安裝至目標伺服器，然後將 DVD 映像檔直接下載至伺服器。 
 
