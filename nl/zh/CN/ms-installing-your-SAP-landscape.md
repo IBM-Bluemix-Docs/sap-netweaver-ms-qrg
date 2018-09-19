@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-02-09"
 
 您需要 SAP S 用户标识和“下载授权”才能下载 DVD。有关 SAP S 用户标识的更多信息，请参阅[如何设置 S 用户标识](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77)。
 
-1. 登录到 [SAP Service Marketplace](https://websmp201.sap-ag.de/) 并将必需的 DVD 下载到本地共享驱动器。
+1. 登录到 [SAP Support Portal](https://support.sap.com/en/index.html)，单击**下载软件**，然后将所需的 DVD 下载到本地共享驱动器。
 2 将文件传输到为您供应的服务器。 
 
 另一个选项是下载 [SAP Software Download Manager](https://support.sap.com/en/my-support/software-downloads.html#section_995042677)，将其安装在目标服务器上，然后直接将 DVD 映像下载到该服务器。 

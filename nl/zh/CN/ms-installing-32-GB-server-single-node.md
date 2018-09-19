@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,16 +16,16 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 创建 32 GB 单节点服务器
+# 供应 32 GB 单节点服务器
 
 使用表 1 中的步骤以在 {{site.data.keyword.cloud}} 环境中供应 SAP NetWeaver 的 32 GB 单节点服务器。
 
-| 步骤| 任务|
+|步骤|任务|
 | --- | --- |
-| 1 | [订购 32 GB 服务器](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-32GB.html)
+|1 |[订购 32 GB 服务器](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-32GB.html)
 |
-| 2 | [准备服务器以用于 SAP 安装](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-32GB.html)|
-| 3 | [分区和文件系统](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)|
+|2 |[准备服务器以用于 SAP 安装](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-32GB.html)|
+|3 |[分区和文件系统](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)|
 {: caption="表 1. 供应概述" caption-side="top"} 
 
 ## 后续步骤
