@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -18,7 +18,7 @@ lastupdated: "2018-02-09"
 
 # 3. Partizionamento e file system
 
-Per l'esempio a tre livelli, è stato ordinato un server di 256 GB (server database) con un disco logico (su RAID10), nonché un server di 32 GB (server dell'applicazione) con un disco logico (su RAID 1). Entrambi i server vengono forniti con un file system grande quanto la dimensione totale dei dischi.
+Per l'esempio a tre livelli, è stato ordinato un server di 192 GB (server database) con un disco logico (su RAID10), nonché un server di 32 GB (server dell'applicazione) con un disco logico (su RAID 1). Entrambi i server vengono forniti con un file system grande quanto la dimensione totale dei dischi.
 
 Per quanto riguarda l'archiviazione, il server non richiede alcuna procedura di installazione aggiuntiva.
 

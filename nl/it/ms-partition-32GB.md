@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-02-08"
 # 3. Partizionamento e file system
 {: #partition_32GB}
 
-Per l'esempio a singolo nodo, è stato ordinato un server con un disco logico (su RAID1). Viene visualizzato un disco di mirroring nel sistema operativo (SO)—con un file system grande quanto la dimensione totale del disco ordinato.
+Per l'esempio a singolo nodo, è stato ordinato un server con un disco logico (su RAID 1). Viene visualizzato un disco di mirroring nel sistema operativo (SO)—con un file system grande quanto la dimensione totale del disco ordinato.
 
 Per quanto riguarda l'archiviazione, il server non richiede alcuna procedura di installazione aggiuntiva.
 

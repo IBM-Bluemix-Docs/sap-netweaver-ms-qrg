@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -19,17 +19,17 @@ lastupdated: "2018-02-09"
 # Installazione del tuo scenario SAP
 {: #install_landscape}
 
-## Scaricamento del tuo software SAP 
+## Scaricamento del tuo software SAP
 {: #download_software}
 
 Hai bisogno di un ID utente SAP S e dell'autorizzazione di scaricamento per scaricare i DVD. Per ulteriori informazioni sull'ID utente SAP S, consulta [How to set up an S-user ID](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77).
 
-1. Accedi a [SAP Service Marketplace](https://websmp201.sap-ag.de/) e scarica i DVD necessari in un'unità condivisa locale.
+1. Accedi al [SAP Support Portal](https://support.sap.com/en/index.html), fai clic su **Download Software** e scarica i DVD necessari in un'unità condivisa locale.
 2 Trasferisci i file al tuo server di cui è stato eseguito il provisioning. 
 
 Un'altra opzione è di scaricare [SAP Software Download Manager](https://support.sap.com/en/my-support/software-downloads.html#section_995042677), installarlo sul server di destinazione e scaricare direttamente le immagini DVD nel server. 
 
-## Installazione del software SAP 
+## Installazione del software SAP
 {: #install_software}
 
 Dopo aver scaricato il supporto di installazione, segui la procedura di installazione SAP standard documentata nella guida di installazione SAP per i componenti e la versione SAP e le note SAP correlate. Per ulteriori informazioni, consulta [SAP Installation Guide](https://service.sap.com/instguides) e [SAP Notes](https://support.sap.com). Entrambi richiedono un ID utente SAP S.

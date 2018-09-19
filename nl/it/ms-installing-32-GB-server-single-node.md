@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Creazione di un server a nodo singolo di 32 GB
+# Provisioning di un server a nodo singolo di 32 GB
 
 Utilizza la procedura nella tabella 1 per eseguire il provisioning del tuo server a nodo singolo di 32 GB per SAP NetWeaver in un ambiente {{site.data.keyword.cloud}}.
 
