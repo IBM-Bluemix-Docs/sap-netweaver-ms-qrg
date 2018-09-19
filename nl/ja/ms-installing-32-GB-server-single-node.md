@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 32 GB 単一ノード・サーバーの作成
+# 32 GB 単一ノード・サーバーのプロビジョン
 
 表 1 のステップを使用して、{{site.data.keyword.cloud}} 環境で SAP NetWeaver 用の 32 GB 単一ノード・サーバーをプロビジョンします。
 
