@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -24,7 +24,8 @@ lastupdated: "2018-02-09"
 
 DVD를 다운로드하려면 SAP S-사용자 ID 및 다운로드 권한이 필요합니다. SAP S-사용자 ID에 대한 자세한 정보는 [S-사용자 ID를 설정하는 방법](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77)을 참조하십시오.
 
-1. [SAP Service Marketplace](https://websmp201.sap-ag.de/)에 로그인하여 필수 DVD를 로컬 공유 드라이브에 다운로드하십시오. 2. 파일을 프로비저닝된 서버로 전송하십시오. 
+1. [SAP 지원 포털](https://support.sap.com/en/index.html)에 로그인하여 **소프트웨어 다운로드**를 클릭하고 필수 DVD를 로컬 공유 드라이브로 다운로드하십시오.
+2. 파일을 프로비저닝된 서버로 전송하십시오. 
 
 다른 옵션은 [SAP Software Download Manager](https://support.sap.com/en/my-support/software-downloads.html#section_995042677)를 다운로드하여 대상 서버에 설치한 후 DVD 이미지를 직접 서버에 다운로드하는 것입니다. 
 

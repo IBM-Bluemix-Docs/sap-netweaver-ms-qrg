@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sap-netweaver-ms-qrg" audience="compute" href="/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html"}
+{: .toc subcollection="sap-netweaver-ms-qrg" audience="compute" arm="2437231" href="/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html"}
 SAP NetWeaver on IBM Cloud - Microsoft Windows용 빠른 참조 안내서
 
     {: .navgroup id="learn"}
