@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-02-08"
 # 3. Particionamiento y sistemas de archivos
 {: #partition_32GB}
 
-Para el ejemplo de un solo nodo, el pedido es de un servidor con un disco lógico (en RAID1). Hay un disco duplicado en el sistema operativo, con un sistema de archivos grande, que es igual al tamaño total del disco que se ha pedido.
+Para el ejemplo de un solo nodo, el pedido es de un servidor con un disco lógico (en RAID 1). Hay un disco duplicado en el sistema operativo, con un sistema de archivos grande, que es igual al tamaño total del disco que se ha pedido.
 
 En cuanto al almacenamiento, el servidor no requiere ningún otro paso de instalación.
 

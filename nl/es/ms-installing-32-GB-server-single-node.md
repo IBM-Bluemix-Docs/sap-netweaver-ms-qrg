@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Creación de un servidor de un solo nodo de 32 GB
+# Suministro de un servidor de un solo nodo de 32 GB
 
 Utilice los pasos de la Tabla 1 para suministrar el servidor de un solo nodo de 32 GB para SAP NetWeaver en un entorno {{site.data.keyword.cloud}}.
 

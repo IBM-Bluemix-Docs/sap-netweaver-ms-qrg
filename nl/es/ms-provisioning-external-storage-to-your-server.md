@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-26"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -22,34 +22,34 @@ lastupdated: "2018-02-26"
 ## Configuración de almacenamiento externo
 {: #set_up_storage}
 
-Puede añadir almacenamiento externo al servidor suministrado (o servidores) si desea utilizarlo como dispositivo de copia de seguridad o utilizar una instantánea para restaurar rápidamente la base de datos en un entorno de prueba. En el ejemplo, se utiliza almacenamiento en bloque para archivar los archivos de registro de la base de datos y copias de seguridad en línea y fuera de línea para la base de datos. Se ha seleccionado el almacenamiento en bloque más rápido (4 IOPS por GB) para garantizar el tiempo mínimo de copia de seguridad. Un almacenamiento en bloque más lento puede ser suficiente según sus necesidades. Para obtener más información sobre {{site.data.keyword.blockstoragefull}}, consulte [Iniciación a Almacenamiento en bloque](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
+Puede añadir almacenamiento externo al servidor suministrado (o servidores) si desea utilizarlo como dispositivo de copia de seguridad o utilizar una instantánea para restaurar rápidamente la base de datos en un entorno de prueba. En el ejemplo, se utiliza almacenamiento en bloque para archivar los archivos de registro de la base de datos y copias de seguridad en línea y fuera de línea para la base de datos. Se ha seleccionado el almacenamiento en bloque más rápido (10 IOPS por GB) para garantizar el tiempo mínimo de copia de seguridad. Un almacenamiento en bloque más lento puede ser suficiente según sus necesidades. Para obtener más información sobre {{site.data.keyword.blockstoragefull}}, consulte [Iniciación a Almacenamiento en bloque](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
 
-1. Inicie sesión en el [portal del cliente de la infraestructura de {{site.data.keyword.cloud_notm}}](https://control.softlayer.com/).
+1. Inicie sesión en el [portal de clientes de la infraestructura de {{site.data.keyword.cloud_notm}}](https://control.softlayer.com/) con sus credenciales exclusivas.
 2. Seleccione **Almacenamiento** > **Almacenamiento en bloque**.
 3. Pulse **Realizar pedido de almacenamiento en bloque** en la esquina superior derecha de la página de almacenamiento en bloque.
-4. Seleccione los detalles en función de sus necesidades de almacenamiento. La tabla 1 contiene los valores recomendados, incluyendo 4 IOPS/GB para una carga de trabajo de base de datos típica.
+4. Seleccione los detalles en función de sus necesidades de almacenamiento. La tabla 1 contiene los valores recomendados, incluyendo 10 IOPS/GB para una carga de trabajo de base de datos exigente.
 
 |              Campo               |      Valor                                        |
 | -------------------------------- | ------------------------------------------------- |
-|Seleccionar tipo de almacenamiento               | Resistencia (predeterminado)                               |
 |Ubicación                          | DAL10                                             |
 |Método de facturación                    | Mensual (predeterminado)                                 |
-|Seleccionar paquete de almacenamiento            | 4 IOPS/GB                                         |
-|Seleccionar tamaño de almacenamiento               | 1000 GB                                           |
-|Especificar tamaño de espacio para instantáneas       | 0 GB                                              |
-|Seleccionar tipo de SO                    | Microsoft Windows                                 |
+|Nuevo tamaño de almacenamiento                  | 1000 GB                                           |
+|Opciones IOPS de almacenamiento              | Resistencia (IOPS por niveles) (predeterminado)                 |
+|Resistencia IOPS por niveles             | 10 GB                                             |
+|Tamaño de espacio para instantáneas               | 0 GB                                              |
+|Tipo de SO                           | Windows 2008+                                     |
 {: caption="Tabla 1. Valores recomendados para el almacenamiento en bloque" caption-side="top"}
+
+5. Pulse los dos recuadros de selección y pulse **Realizar pedido**.
 
 ## Autorización de hosts
 {: authorize-hosts}
 
-1. Pulse **Continuar**.
-2. Pulse **He leído el Acuerdo de Servicio Maestro** y **Realizar pedido**.
-3. Pulse **Acciones** a la derecha del LUN y seleccione **Autorizar host** para acceder al almacenamiento suministrado.
-4. Seleccione **Dispositivos**; el valor predeterminado para **Tipo de dispositivo** es Servidor nativo. Pulse **Hardware** y seleccione los nombres de host del servidor de base de datos.
-5. Pulse **Enviar**.
-6. Compruebe el estado del almacenamiento suministrado en el separador **Dispositivos** > (seleccione el dispositivo) > **Almacenamiento**.
-7. Apunte la **Dirección de destino** y el Nombre calificado iSCSI (IQN) para su servidor (iniciador iSCSI) y el **nombre de usuario** y **contraseña** para la autorización con el servidor iSCSI. Esa información se utiliza para conectar el almacenamiento en bloque con el servidor de base de datos.
+1. Pulse **Acciones** a la derecha del LUN y seleccione **Autorizar host** para acceder al almacenamiento suministrado.
+2. Seleccione **Dispositivos**; el valor predeterminado para **Tipo de dispositivo** es Servidor nativo. Pulse **Hardware** y seleccione los nombres de host del servidor de base de datos.
+3. Pulse **Enviar**.
+4. Compruebe el estado del almacenamiento suministrado en el separador **Dispositivos** > (seleccione el dispositivo) > **Almacenamiento**.
+5. Apunte la **Dirección de destino** y el Nombre calificado iSCSI (IQN) para su servidor (iniciador iSCSI) y el **nombre de usuario** y **contraseña** para la autorización con el servidor iSCSI. Esa información se utiliza para conectar el almacenamiento en bloque con el servidor de base de datos.
 
 En el despliegue de ejemplo, los datos recuperados del separador Almacenamiento son:
    * IP de destino: `10.2.62.78`

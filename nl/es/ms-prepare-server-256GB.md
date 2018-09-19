@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-09"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 2. Preparación del servidor para la instalación de SAP (256 GB)
+# 2. Preparación del servidor para la instalación de SAP (192 GB)
 {: #prepare_256GB}
 
 Se utiliza una IP pública para el acceso remoto, lo que significa que puede conectarse a sus servidores a través de un cliente de Escritorio remoto (RDP) (por ejemplo, MSTSC de Windows). Utilice las direcciones IP públicas que se muestran en la lista de dispositivos (en el menú Dispositivos) para su dispositivo. También se muestran las contraseñas de root para el servidor; asegúrese de pulsar **Mostrar contraseña** para verlas.
