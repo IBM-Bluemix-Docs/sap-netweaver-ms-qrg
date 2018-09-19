@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Criando um servidor de único nó de 32 GB
+# Provisionando um servidor de nó único de 32 GB
 
 Use as etapas na Tabela 1 para provisionar seu servidor de único nó de 32 GB para o SAP NetWeaver em um ambiente do {{site.data.keyword.cloud}}.
 
