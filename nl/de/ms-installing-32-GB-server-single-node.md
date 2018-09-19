@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 32-GB-Einzelknotenserver erstellen
+# 32-GB-Einzelknotenserver bereitstellen
 
 Gehen Sie anhand der Schritte in Tabelle 1 vor, um Ihren 32-GB-Einzelknotenserver für SAP NetWeaver in einer {{site.data.keyword.cloud}}-Umgebung bereitzustellen.
 

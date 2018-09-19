@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-02-09"
 
 Zum Herunterladen der DVDs benötigen Sie eine SAP S-Benutzer-ID sowie eine Downloadberechtigung. Weitere Informationen zur SAP S-Benutzer-ID finden Sie unter [Vorgehensweise zum Einrichten einer S-Benutzer-ID](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77).
 
-1. Melden Sie sich beim [SAP-Servicemarktplatz](https://websmp201.sap-ag.de/) an und laden Sie die erforderlichen DVDs auf ein lokales gemeinsam genutztes Laufwerk herunter.
+1. Melden Sie sich beim [SAP Support Portal](https://support.sap.com/en/index.html) an, klicken Sie auf **Software heruterladen** und laden Sie die erforderlichen DVDs in ein lokales, gemeinsam genutztes Laufwerk herunter.
 2. Übertragen Sie die Dateien auf Ihren bereitgestellten Server. 
 
 Eine andere Option besteht darin, den [Download-Manager für die SAP-Software](https://support.sap.com/en/my-support/software-downloads.html#section_995042677) herunterzuladen, ihn auf Ihrem Zielserver zu installieren und die DVD-Images direkt auf den Server herunterzuladen. 
