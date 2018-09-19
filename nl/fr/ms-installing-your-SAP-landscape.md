@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-09"
 
 
 ---
@@ -24,7 +24,7 @@ lastupdated: "2018-02-09"
 
 Vous aurez besoin d'un ID SAP-S-user et d'une autorisation de téléchargement pour télécharger les DVD. Pour plus d'informations sur l'ID SAP S-user, voir [How to set up an S-user ID](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77).
 
-1. Connectez-vous à [SAP Service Marketplace](https://websmp201.sap-ag.de/) et téléchargez les DVD requis vers une unité partagée locale. 
+1. Connectez-vous au portail [SAP Support Portal](https://support.sap.com/en/index.html), cliquez sur **Download Software** et téléchargez les DVD requis sur une unité partagée locale.
 2 Transférez les fichiers vers votre serveur provisionné. 
 
 Une autre option consiste à télécharger l'utilitaire [SAP Software Download Manager](https://support.sap.com/en/my-support/software-downloads.html#section_995042677), à l'installer sur votre serveur cible, puis à télécharger directement les images des DVD sur le serveur. 

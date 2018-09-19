@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-09"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 2. Préparation de votre serveur pour votre installation SAP (256 Go)
+# 2. Préparation de votre serveur pour votre installation SAP (192 Go)
 {: #prepare_256GB}
 
 Une IP publique est utilisée pour l'accès distant, ce qui signifie que vous pouvez vous connecter à vos serveurs via un client RDP (Remote Desktop), par exemple le client Windows MSTSC. Utilisez les adresses IP publiques affichées dans Device List (sous le menu Device) et correspondant à votre unité. Les mots de passe root sont également affichés ; prenez soin de cliquer sur **Show Password** pour les voir.

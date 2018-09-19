@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-02-08"
 # 3. Partitionnement et systèmes de fichiers
 {: #partition_32GB}
 
-Dans l'exemple avec un noeud unique, un serveur avec un disque logique (sous RAID1) a été commandé. Un disque miroir apparaît dans le système d'exploitation (OS), avec un système de fichiers volumineux dont la taille est égale à celle du disque commandé.
+Dans l'exemple avec un noeud unique, un serveur avec un disque logique (sous RAID 1) a été commandé. Un disque miroir apparaît dans le système d'exploitation (OS), avec un système de fichiers volumineux dont la taille est égale à celle du disque commandé.
 
 En ce qui concerne le stockage, aucune étape d'installation supplémentaire n'affecte le serveur.
 

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-09"
+lastupdated: "2018-07-12"
 
 
 ---
@@ -18,7 +18,7 @@ lastupdated: "2018-02-09"
 
 # 3. Partitionnement et systèmes de fichiers
 
-Pour l'exemple à trois niveaux, un serveur avec 256 Go de RAM (serveur de base de données) doté d'un seul disque logique (sous RAID10) a été commandé, de même qu'un serveur avec 32 Go de RAM (serveur d'application) avec un seul disque logique (sous RAID 1). Les deux serveurs sont livrés avec un système de fichiers volumineux égal à la taille totale des disques.
+Pour l'exemple à trois niveaux, un serveur avec 192 Go de RAM (serveur de base de données) doté d'un seul disque logique (sous RAID10) a été commandé, de même qu'un serveur avec 32 Go de RAM (serveur d'application) avec un seul disque logique (sous RAID 1). Les deux serveurs sont livrés avec un système de fichiers volumineux égal à la taille totale des disques.
 
 En ce qui concerne le stockage, aucune étape d'installation supplémentaire n'affecte le serveur.
 

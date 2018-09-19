@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-08"
+lastupdated: "2018-08-07"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2018-02-08"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Création d'un serveur à noeud unique de 32 Go
+# Mise à disposition d'un serveur à noeud unique 32 Go
 
 Utilisez les étapes décrites dans le tableau 1 pour mettre à disposition votre serveur à noeud unique de 32 Go pour SAP NetWeaver dans un environnement {{site.data.keyword.cloud}}.
 
