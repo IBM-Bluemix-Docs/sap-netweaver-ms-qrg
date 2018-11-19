@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-13"
+lastupdated: "2018-11-14"
 
 
 ---
@@ -28,8 +28,7 @@ Use the following links to begin your SAP NetWeaver on {{site.data.keyword.cloud
   * [Provisioning 192 GB and 32 GB servers in a three-tier setup](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-256-GB-32-GB-server-three-tier-setup.html)
   * [Adding external storage](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
   * [Installing SAP applications and software](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
-  
+
 ## Next Steps
 
 Use the links to learn how to provision and configure your {{site.data.keyword.cloud_notm}} SAP-certified infrastructure.
-

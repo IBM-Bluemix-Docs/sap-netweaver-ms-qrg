@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-08-07"
+lastupdated: "2018-11-14"
 
 
 ---
@@ -27,7 +27,7 @@ A three-tier environment is a more complex scenario using a 192 GB server as the
 | 2 | [Preparing your server for your SAP installation](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-256GB.html) |
 | 3 | [Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html) |
 | 4 | [Preparing your network](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network) |
-{: caption="Table 1. Provisioning overview" caption-side="top"} 
+{: caption="Table 1. Provisioning overview" caption-side="top"}
 
 ## Next Steps
 
