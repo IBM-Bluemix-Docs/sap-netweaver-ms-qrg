@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-14"
 
 
 ---
@@ -22,4 +22,4 @@ A public IP is for remote access, which means you can connect to your server thr
 
 ## Next Steps
 
- [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)
+ [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)

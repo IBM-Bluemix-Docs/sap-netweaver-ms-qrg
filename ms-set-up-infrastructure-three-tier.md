@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-14"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-11-14"
 # 1. Ordering  192 GB and 32 GB servers for a three-tier setup
 {: #install_three_tier}
 
-Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-32GB.html#order_32GB) to order the SAP NetWeaver application server. The following steps guide you through ordering the database server. External storage is provisioned in a later step as backup space for the database for both archived log files and online full backups.
+Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) to order the SAP NetWeaver application server. The following steps guide you through ordering the database server. External storage is provisioned in a later step as backup space for the database for both archived log files and online full backups.
 
 ## Ordering your database server
 {: #order_db_servers}
@@ -49,13 +49,13 @@ Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netwea
 
 1. Select **500 GB** for **Public Bandwidth**.
 2. Select **1 Gbps Redundant Public and Private Network Uplinks** for **Uplink Port Speed**.
-3. Leave the default values for all other fields. For detailed option descriptions, see [Building a custom bare metal server](/docs/bare-metal/baremetal-provision.html#addl-server-options).
+3. Leave the default values for all other fields. For detailed option descriptions, see [Building a custom bare metal server](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 4. Click **Add to Order** at the bottom of the page. You are redirected to the Checkout page after your order is verified.
 
 ## Setting up Advanced System Configurations
 {: #adv_config}
 
-Use the values in Table 1 for the fields under Advanced System Configuration. More information is available in the [Advanced server configuration options](/docs/bare-metal/baremetal-provision.html#adv-system-config) guidelines.
+Use the values in Table 1 for the fields under Advanced System Configuration. More information is available in the [Advanced server configuration options](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server) guidelines.
 
 |              Field               |      Value                                                           |
 | -------------------------------- | -------------------------------------------------------------------- |
@@ -80,12 +80,12 @@ After the order is submitted, the server is, depending on your order, available 
 ## Bring your own license
 {: #byol}
 
-When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-).
+When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](/docs/bare-metal?topic=bare-metal-the-no-os-option).
 
 ## Next Steps
 
-  [2. Preparing your server for your SAP installation](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-256GB.html)
+  [2. Preparing your server for your SAP installation](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-prepare_256GB)
 
-  [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html)
+  [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems)
 
-  [4. Preparing your network](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network)
+  [4. Preparing your network](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)

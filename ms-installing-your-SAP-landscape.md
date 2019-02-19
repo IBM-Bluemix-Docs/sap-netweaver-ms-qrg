@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-11-14"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-14"
 
 
 ---
@@ -22,7 +22,7 @@ lastupdated: "2018-11-14"
 ## Downloading your SAP software
 {: #download_software}
 
-You need an SAP S-user ID and Download Authorization to download the DVDs. For more information on the SAP S-user ID, see [How to set up an S-user ID ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77){: new_window}.
+You need an SAP S-user ID and Download Authorization to download the DVDs. For more information on the SAP S-user ID, see [How to set up an S-user ID ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=4wICiRTP8u0/){: new_window}.
 
 1. Log in to the [SAP Support Portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/index.html){: new_window}, click **Download Software**, and download the required DVDs to a local share drive.
 2 Transfer the files to your provisioned server.
