@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, database server, deployment
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -19,31 +20,31 @@ lastupdated: "2018-07-12"
 # サーバーへの外部ストレージの追加
 {: #storage}
 
-## 外部ストレージの構成
+## 外部ストレージのセットアップ
 {: #set_up_storage}
 
-外部ストレージをバックアップ・デバイスとして使用する場合や、スナップショットを使用してテスト環境でデータベースを迅速にリストアする場合は、プロビジョンされたサーバーに外部ストレージを追加できます。この例では、データベースのアーカイブ・ログ・ファイル、およびデータベースのオンライン/オフライン・バックアップの両方に、ブロック・ストレージが使用されています。 バックアップ時間が確実に最小になるように、最速のブロック・ストレージ (1 GB あたり 10 IOPS) が選択されました。ブロック・ストレージの速度がこれより遅くても十分な場合もあります。 {{site.data.keyword.blockstoragefull}}について詳しくは、[ブロック・ストレージの開始](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage)を参照してください。
+外部ストレージをバックアップ・デバイスとして使用する場合や、スナップショットを使用してテスト環境でデータベースを迅速にリストアする場合は、プロビジョンされたサーバーに外部ストレージを追加できます。 この例では、データベースのアーカイブ・ログ・ファイル、およびデータベースのオンライン/オフライン・バックアップの両方に、ブロック・ストレージが使用されています。 バックアップ時間が確実に最小になるように、最速のブロック・ストレージ (1 GB あたり 10 IOPS) が選択されました。 ブロック・ストレージの速度がこれより遅くても十分な場合もあります。 {{site.data.keyword.blockstoragefull}}について詳しくは、[ブロック・ストレージの開始](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)を参照してください。
 
-1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.cloud_notm}} インフラストラクチャーのカスタマー・ポータル](https://control.softlayer.com/)にログインします。
+1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.cloud_notm}} インフラストラクチャーのカスタマー・ポータル ![外部リンクのアイコン](../icons/launch-glyph.svg "外部リンクのアイコン")](https://control.softlayer.com/){: new_window}にログインします。
 2. **「ストレージ」** > **「ブロック・ストレージ」**を選択します。
 3. 「ブロック・ストレージ」ページの右上隅の**「ブロック・ストレージの注文 (Order Block Storage)」**をクリックします。
 4. ストレージのニーズに合わせて詳細を選択します。 表 1 には、「厳しいデータベース・ワークロードに対しては 10 IOPS/GB」などの推奨値が含まれています。
 
-|            フィールド            |      値                                           |
+|              フィールド               |      値                                        |
 | -------------------------------- | ------------------------------------------------- |
 |場所                          | DAL10                                             |
 |請求方法                    | 毎月 (デフォルト)                                 |
-|新規ストレージ・サイズ            | 1000 GB                                           |
-|ストレージ IOPS オプション        | エンデュランス (層化 IOPS) (デフォルト)           |
-|エンデュランス層化 IOPS           | 10 GB                                             |
-|スナップショット・スペース・サイズ | 0 GB                                              |
-|OS タイプ                         | Windows 2008+                                     |
+|新規ストレージ・サイズ                  | 1000 GB                                           |
+|ストレージ IOPS オプション              | エンデュランス (層化 IOPS) (デフォルト)                 |
+|エンデュランス層化 IOPS             | 10 GB                                             |
+|スナップショット・スペース・サイズ               | 0 GB                                              |
+|OS タイプ                           | Windows 2008+                                     |
 {: caption="表 1. ブロック・ストレージの推奨値" caption-side="top"}
 
 5. 2 つのチェック・ボックスをクリックし、**「注文の実行」**をクリックします。
 
 ## ホストの許可
-{: authorize-hosts}
+{: #authorize-host}
 
 1. LUN の右側にある**「アクション」**をクリックし、**「ホストの許可 (Authorize Host)」**を選択してプロビジョン済みのストレージにアクセスします。
 2. **「デバイス」**を選択します。**「デバイス・タイプ (Device Type)」**は、デフォルトの「ベア・メタル・サーバー」に設定されます。 **「ハードウェア」**をクリックし、データベース・サーバーのホスト名を選択します。
@@ -57,6 +58,6 @@ lastupdated: "2018-07-12"
    * ユーザー: `SL01SU276540-H896345`
    * パスワード: `EtJ79F4RA33dXm2q`
 
-[Connecting to MPIO iSCSCI LUNS on Microsoft Windows (Microsoft Windows 上の MPIO iSCSCI LUNS への接続)](https://console.bluemix.net/docs/infrastructure/BlockStorage/accessing-block-storage-windows.html#connecting-to-mpio-iscsi-luns-on-microsoft-windows)の手順に従い、上記のデータを使用してブロック・ストレージをデータベース・サーバーに接続します。 注意深く手順に従ってください。この手順により、新しい「オフライン」ディスクが Windows サーバーで使用可能になります。
+[Connecting to MPIO iSCSCI LUNS on Microsoft Windows (Microsoft Windows 上の MPIO iSCSCI LUNS への接続)](/docs/infrastructure/BlockStorage?topic=BlockStorage-mountingWindows#mountingWindows)の手順に従い、上記のデータを使用してブロック・ストレージをデータベース・サーバーに接続します。 注意深く手順に従ってください。この手順により、新しい「オフライン」ディスクが Windows サーバーで使用可能になります。
 
-これで、ディスクをオンラインにして初期化することができます。 
+これで、ディスクをオンラインにして初期化することができます。

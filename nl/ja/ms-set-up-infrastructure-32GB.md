@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, bring your own license, BYOL, VLAN
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -22,10 +23,13 @@ lastupdated: "2018-08-13"
 ## サーバーの注文
 {: #order_32GB}
 
-1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.cloud_notm}} インフラストラクチャーのカスタマー・ポータル](https://control.softlayer.com)にログインします。
+1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.cloud_notm}} インフラストラクチャーのカスタマー・ポータル ![外部リンクのアイコン](../icons/launch-glyph.svg "外部リンクのアイコン")](https://control.softlayer.com){: new_window}にログインします。
 2. 「アカウント要約」ページで**「アカウント」** > **「注文の実行」**をクリックします。
-3. 「デバイス」ページの{{site.data.keyword.baremetal_short}}の下の**「毎月」**をクリックします。サーバー・リストが表示されます。SAP 認定サーバーは、リストの一番上にあります。
+3. 「デバイス」ページの{{site.data.keyword.baremetal_short}}の下の**「毎月」**をクリックします。 サーバー・リストが表示されます。SAP 認定サーバーは、リストの一番上にあります。
 4. **「毎月の開始価格 (STARTING PRICE PER MONTH)」**の下のハイパーリンクをクリックして、サーバー**「BI.S3.NW32 (OS オプション)」**を選択します。
+
+BI.S3.NW32 (OS オプション) サーバーも**「毎時」**の請求で利用できます。
+{: note}
 
 ## サーバーの構成
 {: #configure_server}
@@ -34,36 +38,36 @@ lastupdated: "2018-08-13"
 2. **「データ・センター」**は**「DAL10」**を選択します。 データ・センターのリストは、特定のデータ・センター内の製品の可用性によって異なります。
 3. **サーバー**は、サーバー選択に基づく事前定義のデフォルト値に設定されており、変更できません。
 4. **「RAM」**の選択が、サーバー選択に基づく事前定義のデフォルト値に設定されていて変更できない場合であっても、**「32 GB RAM」**をクリックします。
-5. **「オペレーティング・システム」**として、任意のバージョンの Microsoft Windows を選択します。**注**: 使用しているオペレーティング・システムの独自のライセンス (BYOL) がある場合は、**「その他」** > **「オペレーティング・システムなし (No Operating System)」**を選択します。詳しくは、[独自ライセンスの使用](#byol)を参照してください。
-6. **「ディスク・コントローラー 1 (Disk Controller 1)」**がデフォルトの**「2 TB SATA」**に設定されていることを確認して、2 つ目の 2 TB SATA ドライブを追加します。**「ディスクの追加 (Add Disk)」**をクリックします。
+5. **「オペレーティング・システム」**として、任意のバージョンの Microsoft Windows を選択します。 **注**: 使用しているオペレーティング・システムの独自のライセンス (BYOL) がある場合は、**「その他」** > **「オペレーティング・システムなし (No Operating System)」**を選択します。 詳しくは、[独自ライセンスの使用](#byol)を参照してください。
+6. **「ディスク・コントローラー 1 (Disk Controller 1)」**がデフォルトの**「2 TB SATA」**に設定されていることを確認して、2 つ目の 2 TB SATA ドライブを追加します。 **「ディスクの追加 (Add Disk)」**をクリックします。
 7. **「すべてのディスクを選択 (Select All Disks)」**をクリックし、**「RAID ストレージ・グループの作成 (Create RAID storage group)」**をクリックします。
 8. **「タイプ」**をクリックし、**「RAID 1」**を選択します。**「サイズ」**に、必要なストレージの総量をカバーするサイズを入力します。
 9. **「LVM」**はチェック・マークを外したままにし、**「パーティション・テンプレート (Partition Template)」**はデフォルトの**「Windows Basic」**を受け入れます。
 10. **「完了」**をクリックします。
 
 ## 追加のサーバー・オプションの選択
-{: #options_32GB}
+{: #options_32GB
 
 1. **「パブリック処理能力」**は**「500 GB」**を選択します。
 2. **「アップリンク・ポート速度」**は**「1 Gbps 冗長パブリックおよびプライベート・ネットワーク・アップリンク (1 Gbps Redundant Public and Private Network Uplinks)」**を選択します。
-3. このサンプル・インストールでは、他のすべてのフィールドはデフォルト値のままにします。 詳しいオプションの説明は、[カスタム・ベアメタル・サーバーの作成](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#addl-server-options)を参照してください。
+3. 他のすべてのフィールドはデフォルト値のままにします。 詳しいオプションの説明は、[カスタム・ベアメタル・サーバーの作成](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)を参照してください。
 10. ページの下部にある**「注文に追加 (Add to Order)」**をクリックします。 注文が検証された後、「チェックアウト (Checkout)」ページにリダイレクトされます。
 
 ## 拡張システム構成のセットアップ
 {: #adv_config}
 
-「拡張システム構成 (Advanced System Configuration)」の下のフィールドについては、表 1 の値を使用します。 詳細情報が[拡張サーバー構成オプション (Advanced server configuration options)](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#adv-system-config)のガイドラインにあります。
+「拡張システム構成 (Advanced System Configuration)」の下のフィールドについては、表 1 の値を使用します。 詳細情報が[拡張サーバー構成オプション (Advanced server configuration options)](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)のガイドラインにあります。
 
 1. スクロールダウンして、表 1 の**「拡張システム構成 (Advanced System Configuration)」**の下の値を入力します。
 
-|            フィールド            |        値                                                           |
+|              フィールド               |      値                                                           |
 | -------------------------------- | -------------------------------------------------------------------- |
 |バックエンド VLAN                      | ドロップダウン・リストから選択。例えば、`dal10.bcr01a.981`      |
 |サブネット                            | ドロップダウン・リストから選択。例えば、`10.177.119.192/26`     |
 |フロントエンド VLAN                     | ドロップダウン・リストから選択。例えば、`dal10.fcr01a.926`      |
 |サブネット                            | ドロップダウン・リストから選択。例えば、`169.46.15.96/27`       |
-|プロビジョン・スクリプト                 | ブランクのまま。                                                         |
-|SSH 鍵                          | デフォルトは `Add` で、これは SSH 鍵がないことを意味する                           |
+|プロビジョン・スクリプト                 | ブランクのまま                                                          |
+|SSH 鍵                          | デフォルトは `Add` で、SSH 鍵がないことを意味する                            |
 |ホスト名                          | 例えば、`e2e1270`                                               |
 |ドメイン                            | 例えば、`saptest.com`                                           |
 {: caption="表 1. 32 GB 拡張構成の値" caption-side="top"}  
@@ -79,10 +83,10 @@ lastupdated: "2018-08-13"
 ## 独自ライセンスの使用
 {: #byol}
 
-独自のオペレーティング・システム・ライセンスを持っている場合は、ベンダーの指示に基づいて、そのライセンスを {{site.data.keyword.baremetal_short}} にインストールします。詳しくは、[「オペレーティング・システムなし」オプション](https://console.bluemix.net/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-)を参照してください。
+独自のオペレーティング・システム・ライセンスを持っている場合は、ベンダーの指示に基づいて、そのライセンスを {{site.data.keyword.baremetal_short}} にインストールします。 詳しくは、[「オペレーティング・システムなし」オプション](/docs/bare-metal?topic=bare-metal-the-no-os-option)を参照してください。
 
 ## 次のステップ
 
-  [2. SAP インストール用のサーバーの準備](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-32GB.html)
-  
-  [3. パーティショニングとファイル・システム](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)
+  [2. SAP インストール用のサーバーの準備](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-)
+
+  [3. パーティショニングとファイル・システム](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)
