@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, three-tier
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -24,12 +25,11 @@ lastupdated: "2018-08-13"
 
 使用以下链接来开始您的 SAP NetWeaver on {{site.data.keyword.cloud_notm}} 之旅。
 
-  * [供应 32 GB 单节点服务器](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-32-GB-server-single-node.html)
-  * [在三层设置中供应 192 GB 和 32 GB 服务器](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-256-GB-32-GB-server-three-tier-setup.html)
-  * [添加外部存储器](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
-  * [安装 SAP 应用程序和软件](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
-  
+  * [供应 32 GB 单节点服务器](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-provisioning-a-32-gb-single-node-server)
+  * [在三层设置中供应 192 GB 和 32 GB 服务器](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install-256GB)
+  * [添加外部存储器](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [安装 SAP 应用程序和软件](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)
+
 ## 后续步骤
 
 使用以下链接来了解如何供应和配置 {{site.data.keyword.cloud_notm}} SAP 认证的基础架构。
-

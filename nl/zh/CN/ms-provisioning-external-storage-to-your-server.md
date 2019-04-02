@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, database server, deployment
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -19,12 +20,12 @@ lastupdated: "2018-07-12"
 # 向服务器添加外部存储器
 {: #storage}
 
-## 配置外部存储器
+## 设置外部存储器
 {: #set_up_storage}
 
-如果想要将外部存储器用作备份设备或使用快照在测试环境中快速复原数据库，那么可以向供应的一个或多个服务器添加外部存储器。在示例中，块存储器用于归档数据库的日志文件以及联机和脱机备份数据库。选择了最快的块存储器 (10 IOPS/GB)，这有助于确保备份时间最短。较慢的块存储器可能已足够满足您的需求。有关 {{site.data.keyword.blockstoragefull}} 的更多信息，请参阅 [Block Storage 入门](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage)。
+如果想要将外部存储器用作备份设备或使用快照在测试环境中快速复原数据库，那么可以向供应的一个或多个服务器添加外部存储器。在示例中，块存储器用于归档数据库的日志文件以及联机和脱机备份数据库。选择了最快的块存储器 (10 IOPS/GB)，这有助于确保备份时间最短。较慢的块存储器可能已足够满足您的需求。有关 {{site.data.keyword.blockstoragefull}} 的更多信息，请参阅 [Block Storage 入门](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)。
 
-1. 使用您的唯一凭证登录到 [{{site.data.keyword.cloud_notm}} 基础架构客户门户网站](https://control.softlayer.com/)。
+1. 使用您的唯一凭证登录到 [{{site.data.keyword.cloud_notm}} 基础架构客户门户网站 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
 2. 选择**存储器** > **Block Storage**。
 3. 单击 Block Storage 页面右上角的**订购 Block Storage**。
 4. 选择适合您的存储需求的具体规格。表 1 包含建议值，包括适合要求苛刻的数据库工作负载的 10 IOPS/GB。
@@ -40,10 +41,10 @@ lastupdated: "2018-07-12"
 |操作系统类型                      |Windows 2008+                                     |
 {: caption="表 1. 块存储器的建议值" caption-side="top"}
 
-5. 单击两个复选框，然后单击**下单**。
+5. 单击两个复选框，然后单击**下订单**。
 
 ## 授权主机
-{: authorize-hosts}
+{: #authorize-host}
 
 1. 单击 LUN 右侧的**操作**，并选择**授权主机**以访问供应的存储器。
 2. 选择**设备**；**设备类型**缺省为“裸机服务器”。单击**硬件**并选择数据库服务器的主机名。
@@ -57,6 +58,6 @@ lastupdated: "2018-07-12"
    * 用户：`SL01SU276540-H896345`
    * 密码：`EtJ79F4RA33dXm2q`
 
-执行[连接到 Microsoft Windows 上的 MPIO iSCSCI LUN](https://console.bluemix.net/docs/infrastructure/BlockStorage/accessing-block-storage-windows.html#connecting-to-mpio-iscsi-luns-on-microsoft-windows) 中的步骤，以使用上述数据将块存储器连接到数据库服务器。请谨慎执行这些步骤；执行这些步骤后，将有一个新的“脱机”磁盘可用于您的 Windows 服务器。
+执行[连接到 Microsoft Windows 上的 MPIO iSCSCI LUN](/docs/infrastructure/BlockStorage?topic=BlockStorage-mountingWindows#mountingWindows) 中的步骤，以使用上述数据将块存储器连接到数据库服务器。请谨慎执行这些步骤；执行这些步骤后，将有一个新的“脱机”磁盘可用于您的 Windows 服务器。
 
-现在您可以将磁盘联机并进行初始化。 
+现在您可以将磁盘联机并进行初始化。
