@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, application server, database server
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -23,6 +24,6 @@ lastupdated: "2018-07-12"
 
 ## 다음 단계
 
- [3. 파티셔닝 및 파일 시스템](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html#partition-256GB)
- 
- [4. 네트워크 준비](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network)
+ [3. 파티셔닝 및 파일 시스템](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems)
+
+ [4. 네트워크 준비](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)
