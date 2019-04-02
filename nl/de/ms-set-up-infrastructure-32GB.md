@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, bring your own license, BYOL, VLAN
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -22,10 +23,13 @@ lastupdated: "2018-08-13"
 ## Server bestellen
 {: #order_32GB}
 
-1. Melden Sie sich mit Ihren eindeutigen Berechtigungsnachweisen beim [Kundenportal für die {{site.data.keyword.cloud_notm}}-Infrastruktur](https://control.softlayer.com) an.
+1. Melden Sie sich beim [Kundenportal der {{site.data.keyword.cloud_notm}}-Infrastruktur ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com){: new_window} mit den eindeutigen Berechtigungsnachweisen an. 
 2. Klicken Sie auf **Konto** > **Bestellen** auf der Kontozusammenfassungsseite.
 3. Klicken Sie auf der Seite "Geräte" unter {{site.data.keyword.baremetal_short}} auf **Monatlich**. Die Liste der Server wird angezeigt; die von SAP zertifizierten Server stehen am Listenanfang.
 4. Klicken Sie auf den Hyperlink unter **Startpreis pro Monat**, um den Server **BI.S3.NW32 (Betriebssystemoptionen)** auszuwählen.
+
+Der BI.S3.NW32-Server (Betriebssystemoptionen) ist ebenfalls für die Abrechnung auf **Stundenbasis** verfügbar.
+{: note}
 
 ## Server konfigurieren
 {: #configure_server}
@@ -42,30 +46,30 @@ lastupdated: "2018-08-13"
 10. Klicken Sie auf **Fertig**.
 
 ## Zusätzliche Serveroptionen auswählen
-{: #options_32GB}
+{: #options_32GB
 
 1. Wählen Sie als **Öffentliche Bandbreite** den Wert **500 GB** aus.
 2. Wählen Sie als **Uplink-Port-Geschwindigkeit** die Option **1 Gb/s Redundanz für Uplinks des öffentlichen und privaten Netzes** aus.
-3. Belassen Sie für diese Beispielinstallation in allen übrigen Feldern die Standardwerte. Detaillierte Beschreibungen der Optionen finden Sie in [Angepassten Bare-Metal-Server erstellen](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#addl-server-options).
+3. Belassen Sie die Standardwerte für alle anderen Felder. Detaillierte Beschreibungen der Optionen finden Sie in [Angepassten Bare-Metal-Server erstellen](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 10. Klicken Sie unten auf der Seite auf **Zur Bestellung hinzufügen**. Nachdem Ihre Bestellung verifiziert wurde, werden Sie zur Kassenseite weitergeleitet.
 
 ## Erweiterte Systemkonfigurationen einrichten
 {: #adv_config}
 
-Zur Belegung der Felder unter "Erweiterte Systemkonfiguration" verwenden Sie die Werte aus Tabelle 1. Weitere Informationen finden Sie in den Richtlinien zu [erweiterten Serverkonfigurationsoptionen](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#adv-system-config).
+Zur Belegung der Felder unter "Erweiterte Systemkonfiguration" verwenden Sie die Werte aus Tabelle 1. Weitere Informationen finden Sie in den Richtlinien zu [erweiterten Serverkonfigurationsoptionen](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server).
 
 1. Blättern Sie abwärts und geben Sie unter **Erweiterte Systemkonfiguration** die Werte aus Tabelle 1 ein.
 
-|            Feld                  |      Wert                                                            |
+|              Feld               |      Wert                                                           |
 | -------------------------------- | -------------------------------------------------------------------- |
-|Back-End-VLAN                     | Auswahl in Dropdown-Liste, z. B. `dal10.bcr01a.981` |
-|Teilnetz                          | Auswahl in Dropdown-Liste, z. B. `10.177.119.192/26`|
-|Front-End-VLAN                    | Auswahl in Dropdown-Liste, z. B. `dal10.fcr01a.926` |
-|Teilnetz                          | Auswahl in Dropdown-Liste, z. B. `169.46.15.96/27`  |
-|Bereitstellungsscripts            | Keine Angabe machen.                                                 |
-|SSH-Schlüssel                     | Standardwert `Add`, d. h. kein SSH-Schlüssel        |
-|Hostname                          | Beispiel: `e2e1270`                                 |
-|Domäne                            | Beispiel: `saptest.com`                             |
+|Back-End-VLAN                      | Auswahl in Dropdown-Liste, z. B. `dal10.bcr01a.981`      |
+|Teilnetz                            | Auswahl in Dropdown-Liste, z. B. `10.177.119.192/26`     |
+|Front-End-VLAN                     | Auswahl in Dropdown-Liste, z. B. `dal10.fcr01a.926`      |
+|Teilnetz                            | Auswahl in Dropdown-Liste, z. B. `169.46.15.96/27`       |
+|Bereitstellungsscripts            | Keine Angabe machen                                                          |
+|SSH-Schlüssel                          | Standardwert `Add`, d. h. kein SSH-Schlüssel        |
+|Hostname                          | Beispiel: `e2e1270`                                               |
+|Domäne                            | Beispiel: `saptest.com`                                           |
 {: caption="Tabelle 1. Erweiterte Konfigurationswerte für 32 GB" caption-side="top"}  
 
 ## Auswahl bestätigen
@@ -79,10 +83,10 @@ Nach der Übermittlung der Bestellung ist der Server - entsprechend der Bestellu
 ## BYOL (Bring Your Own License)
 {: #byol}
 
-Wenn Sie über eine eigene Betriebssystemlizenz verfügen, installieren Sie sie auf dem {{site.data.keyword.baremetal_short}} anhand der Herstelleranweisungen. Weitere Informationen finden Sie in [Option 'Kein Betriebssystem'](https://console.bluemix.net/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-).
+Wenn Sie über eine eigene Betriebssystemlizenz verfügen, installieren Sie sie auf dem {{site.data.keyword.baremetal_short}} anhand der Herstelleranweisungen. Weitere Informationen finden Sie in [Option 'Kein Betriebssystem'](/docs/bare-metal?topic=bare-metal-the-no-os-option).
 
 ## Nächste Schritte
 
-  [2. Server für die SAP-Installation vorbereiten](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-32GB.html)
-  
-  [3. Partitionierung und Dateisysteme](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)
+  [2. Server für die SAP-Installation vorbereiten](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-)
+
+  [3. Partitionierung und Dateisysteme](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)

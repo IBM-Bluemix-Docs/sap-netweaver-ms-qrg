@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, three-tier
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -24,12 +25,11 @@ Das erste Konfigurationsbeispiel ist das kleinstmögliche - ein Einzelknotenserv
 
 Verwenden Sie die folgenden Links, um Ihre Reise mit SAP NetWeaver in {{site.data.keyword.cloud_notm}} zu beginnen.
 
-  * [32-GB-Einzelknotenserver bereitstellen](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-32-GB-server-single-node.html)
-  * [192 GB- und 32 GB-Server in einer Konfiguration mit drei Ebenen bereitstellen](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-256-GB-32-GB-server-three-tier-setup.html)
-  * [Externen Speicher hinzufügen](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
-  * [SAP-Anwendungen und -Software installieren](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
-  
+  * [32-GB-Einzelknotenserver bereitstellen](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-provisioning-a-32-gb-single-node-server)
+  * [192 GB- und 32 GB-Server in einer Konfiguration mit drei Ebenen bereitstellen](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install-256GB)
+  * [Externen Speicher hinzufügen](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [SAP-Anwendungen und -Software installieren](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)
+
 ## Nächste Schritte
 
 Über die Links können Sie Informationen zur Bereitstellung und Konfiguration der von SAP zertifizierten {{site.data.keyword.cloud_notm}}-Infrastruktur aufrufen.
-

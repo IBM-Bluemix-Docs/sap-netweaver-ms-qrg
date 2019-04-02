@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, application server, database server
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -23,6 +24,6 @@ Für den Fernzugriff wird eine öffentliche IP verwendet, d. h. Sie können Verb
 
 ## Nächste Schritte
 
- [3. Partitionierung und Dateisysteme](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html#partition-256GB)
- 
- [4. Netz vorbereiten](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network)
+ [3. Partitionierung und Dateisysteme](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems)
+
+ [4. Netz vorbereiten](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)
