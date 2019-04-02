@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, bring your own license, BYOL, VLAN, application server, database server, three-tier, SAP certified servers
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -19,15 +20,18 @@ lastupdated: "2018-08-13"
 # 1. 訂購 192 GB 及 32 部 GB 伺服器進行三層設定
 {: #install_three_tier}
 
-遵循[訂購 32 GB 伺服器](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-32GB.html#order_32GB)中的步驟，以訂購 SAP NetWeaver 應用程式伺服器。下列步驟引導您完成訂購資料庫伺服器。在稍後的步驟中，將外部儲存空間佈建為資料庫的備份空間，以進行已保存日誌檔及線上完整備份。
+遵循[訂購 32 GB 伺服器](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB)中的步驟，以訂購 SAP NetWeaver 應用程式伺服器。下列步驟引導您完成訂購資料庫伺服器。在稍後的步驟中，將外部儲存空間佈建為資料庫的備份空間，以進行已保存日誌檔及線上完整備份。
 
 ## 訂購資料庫伺服器
 {: #order_db_servers}
 
-1. 使用唯一的認證來登入 [{{site.data.keyword.cloud}} 基礎架構客戶入口網站](https://control.softlayer.com)。
+1. 使用唯一的認證來登入 [{{site.data.keyword.cloud}} 基礎架構客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com){: new_window}。
 2. 在「帳戶摘要」頁面上，按一下**帳戶** > **下訂單**。
 3. 在「裝置」頁面上，按一下 **{{site.data.keyword.baremetal_long}}** 下的**每月**。即會出現「伺服器清單」對話框。
 4. SAP 認證伺服器在清單的頂端。按一下**每個月的起始價格**下的超鏈結，以選取伺服器 **BI.S3.NW192（OS 選項）**。
+
+BI.S3.NW32（OS 選項）伺服器也適用於**按小時**計費。
+{: note}
 
 ## 配置資料庫伺服器
 {: #configure_server}
@@ -37,6 +41,7 @@ lastupdated: "2018-08-13"
 3. 根據伺服器選取項目，將**伺服器**預設為預定值，並且無法進行變更。
 4. 按一下 **192 GB RAM**，即使根據伺服器選取項目，將 **RAM** 選取項目預設為預定值並且無法進行變更也是一樣。
 5. 選取您選擇的 Microsoft Windows 版本作為**作業系統**。**附註**：如果您為作業系統自帶授權 (BYOL)，請選取**其他** > **無作業系統**。如需相關資訊，請參閱[自帶授權](#byol)。
+
 6. 藉由驗證**磁碟控制器 1** 預設為 **2 TB SATA**，新增第二個 2 TB SATA 磁碟機。按一下**新增磁碟**。
 7. 按一下**選取所有磁碟**，然後按一下**建立 RAID 儲存空間群組**。
 8. 按一下**類型**，然後選取 **RAID 1**。輸入涵蓋您所需儲存空間量總計的**大小**。
@@ -48,13 +53,13 @@ lastupdated: "2018-08-13"
 
 1. 針對**公用頻寬**，選取 **500 GB**。
 2. 針對**上行鏈路埠速度**，選取 **1 Gbps 備援公用及專用網路上行鏈路**。
-3. 保留所有其他欄位的預設值。如需詳細選項說明，請參閱[建置自訂裸機伺服器](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#addl-server-options)。
-10. 按一下頁面底端的**新增至訂單**。驗證訂單之後，會將您重新導向至「結帳」頁面。
+3. 保留所有其他欄位的預設值。如需詳細選項說明，請參閱[建置自訂裸機伺服器](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)。
+4. 按一下頁面底端的**新增至訂單**。驗證訂單之後，會將您重新導向至「結帳」頁面。
 
 ## 設定進階系統配置
 {: #adv_config}
 
-使用表 1 中「進階系統配置」下欄位的值。如需相關資訊，請參閱[進階伺服器配置選項](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#adv-system-config)準則。
+使用表 1 中「進階系統配置」下欄位的值。如需相關資訊，請參閱[進階伺服器配置選項](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)準則。
 
 |欄位                |值                                                              |
 | -------------------------------- | -------------------------------------------------------------------- |
@@ -62,11 +67,10 @@ lastupdated: "2018-08-13"
 |子網路                            |從下拉清單中進行選取，例如，`10.177.119.192/26`                      |
 |前端 VLAN                         |從下拉清單中進行選取，例如，`dal10.fcr01a.926`                       |
 |子網路                            |從下拉清單中進行選取，例如，169.46.15.96/27                          |
-|佈建 Script                       |保留空白。|
+|佈建 Script                       |空白                                                                 |
 |SSH 金鑰                          |預設為 `Add`，意指無 SSH 金鑰|
-|使用者 meta 資料                  |空白                                                                 |
-|主機名稱伺服器 1                  |例如，`sdb192`                                                |
-|網域伺服器 1                      |例如，`saptest.com`                                                  |
+|主機名稱                          |例如，`sdb192`                                                |
+|網域                              |例如，`saptest.com`                                                  |
 {: caption="表 1.「進階系統配置」值" caption-side="top"}
 
 ## 確認選取項目
@@ -80,12 +84,12 @@ lastupdated: "2018-08-13"
 ## 自帶授權
 {: #byol}
 
-當您有自己的作業系統授權時，請根據供應商的指示將它安裝在 {{site.data.keyword.baremetal_short}} 上。如需相關資訊，請參閱[無 OS 選項](https://console.bluemix.net/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-)。
+當您有自己的作業系統授權時，請根據供應商的指示將它安裝在 {{site.data.keyword.baremetal_short}} 上。如需相關資訊，請參閱[無 OS 選項](/docs/bare-metal?topic=bare-metal-the-no-os-option)。
 
 ## 後續步驟
 
-  [2. 準備伺服器進行 SAP 安裝](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-256GB.html)
-  
-  [3. 分割及檔案系統](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html)
-  
-  [4. 準備網路](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network)
+  [2. 準備伺服器進行 SAP 安裝](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-prepare_256GB)
+
+  [3. 分割及檔案系統](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems)
+
+  [4. 準備網路](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)

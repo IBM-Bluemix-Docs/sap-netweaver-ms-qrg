@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -25,5 +26,5 @@ lastupdated: "2018-07-12"
 
 ## 後續步驟
 
-  * [將外部儲存空間新增至 {{site.data.keyword.baremetal_short}}](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
-  * [安裝 SAP 應用程式及軟體](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
+  * [將外部儲存空間新增至 {{site.data.keyword.baremetal_short}}](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [安裝 SAP 應用程式及軟體](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)

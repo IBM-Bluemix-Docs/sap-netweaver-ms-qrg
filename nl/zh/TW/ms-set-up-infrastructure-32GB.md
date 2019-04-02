@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, bring your own license, BYOL, VLAN
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -22,10 +23,13 @@ lastupdated: "2018-08-13"
 ## 訂購伺服器
 {: #order_32GB}
 
-1. 使用唯一的認證來登入 [{{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站](https://control.softlayer.com)。
+1. 使用唯一的認證來登入 [{{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com){: new_window}。
 2. 在「帳戶摘要」頁面上，按一下**帳戶** > **下訂單**。
 3. 在「裝置」頁面上，按一下 {{site.data.keyword.baremetal_short}} 下的**每月**。會出現伺服器清單；SAP 認證伺服器在清單的頂端。
 4. 按一下**每個月的起始價格**下的超鏈結，以選取伺服器 **BI.S3.NW32（OS 選項）**。
+
+BI.S3.NW32（OS 選項）伺服器也適用於**按小時**計費。
+{: note}
 
 ## 配置伺服器
 {: #configure_server}
@@ -42,17 +46,17 @@ lastupdated: "2018-08-13"
 10. 按一下**完成**。
 
 ## 選取其他伺服器選項
-{: #options_32GB}
+{: #options_32GB
 
 1. 針對**公用頻寬**，選取 **500 GB**。
 2. 針對**上行鏈路埠速度**，選取 **1 Gbps 備援公用及專用網路上行鏈路**。
-3. 針對此範例安裝，保留所有其他欄位的預設值。如需詳細選項說明，請參閱[建置自訂裸機伺服器](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#addl-server-options)。
+3. 保留所有其他欄位的預設值。如需詳細選項說明，請參閱[建置自訂裸機伺服器](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)。
 10. 按一下頁面底端的**新增至訂單**。驗證訂單之後，會將您重新導向至「結帳」頁面。
 
 ## 設定進階系統配置
 {: #adv_config}
 
-使用表 1 中「進階系統配置」下欄位的值。如需相關資訊，請參閱[進階伺服器配置選項](https://console.bluemix.net/docs/bare-metal/baremetal-provision.html#adv-system-config)準則。
+使用表 1 中「進階系統配置」下欄位的值。如需相關資訊，請參閱[進階伺服器配置選項](/docs/bare-metal?topic=bare-metal-ordering-baremetal-server)準則。
 
 1. 向下捲動，並輸入表 1 中**進階系統配置**下的值。
 
@@ -62,7 +66,7 @@ lastupdated: "2018-08-13"
 |子網路                            |從下拉清單中進行選取，例如，`10.177.119.192/26`                      |
 |前端 VLAN                         |從下拉清單中進行選取，例如，`dal10.fcr01a.926`                       |
 |子網路                            |從下拉清單中進行選取，例如，`169.46.15.96/27`                        |
-|佈建 Script                       |保留空白。|
+|佈建 Script                       |空白                                                                 |
 |SSH 金鑰                          |預設為 `Add`，意指無 SSH 金鑰|
 |主機名稱                          |例如，`e2e1270`                                                      |
 |網域                              |例如，`saptest.com`                                                  |
@@ -79,10 +83,10 @@ lastupdated: "2018-08-13"
 ## 自帶授權
 {: #byol}
 
-當您有自己的作業系統授權時，請根據供應商的指示將它安裝在 {{site.data.keyword.baremetal_short}} 上。如需相關資訊，請參閱[無 OS 選項](https://console.bluemix.net/docs/bare-metal/introduction-no-os.html#how-to-install-an-operating-system-on-a-no-os-server-)。
+當您有自己的作業系統授權時，請根據供應商的指示將它安裝在 {{site.data.keyword.baremetal_short}} 上。如需相關資訊，請參閱[無 OS 選項](/docs/bare-metal?topic=bare-metal-the-no-os-option)。
 
 ## 後續步驟
 
-  [2. 準備伺服器進行 SAP 安裝](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-32GB.html)
-  
-  [3. 分割及檔案系統](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)
+  [2. 準備伺服器進行 SAP 安裝](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-)
+
+  [3. 分割及檔案系統](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)

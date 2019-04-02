@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, database server, deployment
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -19,12 +20,12 @@ lastupdated: "2018-07-12"
 # 將外部儲存空間新增至伺服器
 {: #storage}
 
-## 配置外部儲存空間
+## 設定外部儲存空間
 {: #set_up_storage}
 
-如果您要使用外部儲存空間作為備份裝置，或在測試環境中使用 Snapshot 快速還原資料庫，則可以將外部儲存空間新增至一個以上已佈建的伺服器。在範例中，使用區塊儲存空間來保存資料庫的日誌檔以及資料庫的線上和離線備份。已選取最快速的區塊儲存空間（每 GB 10 IOPS），協助確保最短備份時間。較慢的區塊儲存空間可能就符合您的需求。如需 {{site.data.keyword.blockstoragefull}} 的相關資訊，請參閱[開始使用區塊儲存空間](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage)。
+如果您要使用外部儲存空間作為備份裝置，或在測試環境中使用 Snapshot 快速還原資料庫，則可以將外部儲存空間新增至一個以上已佈建的伺服器。在範例中，使用區塊儲存空間來保存資料庫的日誌檔以及資料庫的線上和離線備份。已選取最快速的區塊儲存空間（每 GB 10 IOPS），協助確保最短備份時間。較慢的區塊儲存空間可能就符合您的需求。如需 {{site.data.keyword.blockstoragefull}} 的相關資訊，請參閱[開始使用區塊儲存空間](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)。
 
-1. 使用唯一的認證來登入 [{{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站](https://control.softlayer.com/)。
+1. 使用唯一的認證來登入 [{{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
 2. 選取**儲存空間** > **區塊儲存空間**。
 3. 按一下「區塊儲存空間」頁面右上角的**訂購區塊儲存空間**。
 4. 選取您儲存空間需求的特性。表 1 包含建議值（包括要求嚴苛的資料庫工作負載所適用的 10 IOPS/GB）。
@@ -43,7 +44,7 @@ lastupdated: "2018-07-12"
 5. 按一下兩個勾選框，然後按一下**下訂單**。
 
 ## 授權主機
-{: authorize-hosts}
+{: #authorize-host}
 
 1. 按一下 LUN 右側的**動作**，然後選取**授權主機**來存取已佈建的儲存空間。
 2. 選取**裝置**；**裝置類型**預設為「裸機伺服器」。按一下**硬體**，然後選取您資料庫伺服器的主機名稱。
@@ -57,6 +58,6 @@ lastupdated: "2018-07-12"
    * 使用者：`SL01SU276540-H896345`
    * 密碼：`EtJ79F4RA33dXm2q`
 
-遵循[在 Microsoft Windows 上連接至 MPIO iSCSCI LUNS](https://console.bluemix.net/docs/infrastructure/BlockStorage/accessing-block-storage-windows.html#connecting-to-mpio-iscsi-luns-on-microsoft-windows) 中的步驟，以使用上面的資料將區塊儲存空間連接至資料庫伺服器。請仔細地遵循步驟；它們會導致可用於 Windows 伺服器的新「離線」磁碟。
+遵循[在 Microsoft Windows 上連接至 MPIO iSCSCI LUNS](/docs/infrastructure/BlockStorage?topic=BlockStorage-mountingWindows#mountingWindows) 中的步驟，以使用上面的資料將區塊儲存空間連接至資料庫伺服器。請仔細地遵循步驟；它們會導致可用於 Windows 伺服器的新「離線」磁碟。
 
-您現在可以讓磁碟上線，並進行起始設定。 
+您現在可以讓磁碟上線，並進行起始設定。
