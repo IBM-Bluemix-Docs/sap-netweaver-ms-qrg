@@ -1,10 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-09"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
+
+keywords: SAP NetWeaver, ABAP, ASCS Instance, Database Instance, ABAP SAP Central Services, SWPM, application server, database server
+
+subcollection: sap-netweaver-ms-qrg
 
 
 ---
@@ -22,17 +24,17 @@ lastupdated: "2018-07-09"
 ## Scaricamento del tuo software SAP
 {: #download_software}
 
-Hai bisogno di un ID utente SAP S e dell'autorizzazione di scaricamento per scaricare i DVD. Per ulteriori informazioni sull'ID utente SAP S, consulta [How to set up an S-user ID](https://www.sapappsdevelopmentpartnercenter.com/en/faq/program-faqs_2/how-to-receive-an-s-user-to-access-the-s_77).
+Hai bisogno di un ID utente SAP S e dell'autorizzazione di scaricamento per scaricare i DVD. Per ulteriori informazioni sull'ID utente SAP S, consulta [How to set up an S-user ID ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.youtube.com/watch?v=4wICiRTP8u0/){: new_window}.
 
-1. Accedi al [SAP Support Portal](https://support.sap.com/en/index.html), fai clic su **Download Software** e scarica i DVD necessari in un'unità condivisa locale.
-2 Trasferisci i file al tuo server di cui è stato eseguito il provisioning. 
+1. Accedi a [SAP Support Portal ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://support.sap.com/en/index.html){: new_window}, fai clic su **Download Software** e scarica i DVD necessari in un'unità condivisa locale.
+2 Trasferisci i file al tuo server di cui è stato eseguito il provisioning.
 
-Un'altra opzione è di scaricare [SAP Software Download Manager](https://support.sap.com/en/my-support/software-downloads.html#section_995042677), installarlo sul server di destinazione e scaricare direttamente le immagini DVD nel server. 
+Un'altra opzione è di scaricare [SAP Software Download Manager ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://support.sap.com/en/my-support/software-downloads.html#section_995042677){: new_window}, installarlo sul server di destinazione e scaricare direttamente le immagini DVD nel server.
 
 ## Installazione del software SAP
 {: #install_software}
 
-Dopo aver scaricato il supporto di installazione, segui la procedura di installazione SAP standard documentata nella guida di installazione SAP per i componenti e la versione SAP e le note SAP correlate. Per ulteriori informazioni, consulta [SAP Installation Guide](https://service.sap.com/instguides) e [SAP Notes](https://support.sap.com). Entrambi richiedono un ID utente SAP S.
+Dopo aver scaricato il supporto di installazione, segui la procedura di installazione SAP standard documentata nella guida di installazione SAP per i componenti e la versione SAP e le note SAP correlate. Per ulteriori informazioni, consulta [SAP Installation Guide ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://service.sap.com/instguides){: new_window} e [SAP Notes ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://support.sap.com){: new_window}. Entrambi richiedono un ID utente SAP S.
 
 1. Apri la cartella root del tuo SWPM-DVD o del DVD principale di installazione come un amministratore ed esegui `sapinst`. Viene visualizzata la pagina di benvenuto dell'installazione SAP.
 2. Seleziona **SAP NetWeaver 7.5** > **IBM DB2 for Linux, Unix, and Windows** > **SAP Systems** > **Application Server ABAP**.
@@ -41,4 +43,3 @@ Dopo aver scaricato il supporto di installazione, segui la procedura di installa
 5. Esegui **Primary Application Server Instance** nel server dell'applicazione. Assicurati di utilizzare gli indirizzi privati per i nomi host del database e ASCS durante l'installazione del server dell'applicazione. Questo garantisce che il traffico di rete tra il server dell'applicazione e ASCS o il database, passi tramite la rete privata e non la pubblica.
 
 Puoi ora eseguire la tua installazione SAP in base alle istruzioni di installazione SAP.
-
