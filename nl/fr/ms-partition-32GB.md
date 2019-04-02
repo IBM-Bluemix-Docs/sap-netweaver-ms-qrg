@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -25,5 +26,5 @@ En ce qui concerne le stockage, aucune étape d'installation supplémentaire n'a
 
 ## Etapes suivantes
 
-  * [Ajout d'une mémoire externe à vos serveurs Bare Metal](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
-  * [Installation de vos logiciels et applications SAP](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
+  * [Ajout d'une mémoire externe à vos serveurs Bare Metal](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [Installation de vos logiciels et applications SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)

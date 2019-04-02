@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-08-07"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, application server, database server, three-tier
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -23,11 +24,11 @@ Etudions maintenant un scénario plus complexe : celui d'un environnement à tro
 
 | Etape | Tâche |
 | --- | --- |
-| 1 | [Commande de vos serveurs 192 Go et 32 Go pour une configuration à trois niveaux](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-three-tier.html) |
-| 2 | [Préparation de votre serveur pour votre installation SAP](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-256GB.html) |
-| 3 | [Partitionnement et systèmes de fichiers](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html) |
-| 4 | [Préparation de votre réseau](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network) |
-{: caption="Tableau 1. Présentation de la mise à disposition" caption-side="top"} 
+| 1 | [Commande de vos serveurs 192 Go et 32 Go pour une configuration à trois niveaux](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_three_tier) |
+| 2 | [Préparation de votre serveur pour votre installation SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-prepare_256GB) |
+| 3 | [Partitionnement et systèmes de fichiers](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems) |
+| 4 | [Préparation de votre réseau](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network) |
+{: caption="Tableau 1. Présentation de la mise à disposition" caption-side="top"}
 
 ## Etapes suivantes
 
