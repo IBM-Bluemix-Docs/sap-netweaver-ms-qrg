@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, application server, database server, three-tier
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -26,4 +27,4 @@ Quanto ao armazenamento, o servidor não requer nenhuma etapa de instalação ad
 
 ## Próximas etapas
 
-[4. Preparando sua rede](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network)
+[4. Preparando sua rede](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)

@@ -1,12 +1,12 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sap-netweaver-ms-qrg" audience="compute" arm="2437231" href="/docs/infrastructure/sap-netweaver-ms-qrg/ms-index.html"}
+{: .toc subcollection="sap-netweaver-ms-qrg" audience="compute" href="/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-getting-started-tutorial" path="infrastructure/sap-netweaver-ms-qrg"}
 SAP NetWeaver no IBM Cloud - Guia de consulta rápida para o Microsoft Windows
 
     {: .navgroup id="learn"}
     ms-index.md
-    [SAP NetWeaver no IBM Cloud](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-index.html#getting-started)
+    [SAP NetWeaver no IBM Cloud](https://cloud.ibm.com/docs/infrastructure/sap-netweaver?topic=sap-netweaver-getting-started#getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -29,10 +29,10 @@ SAP NetWeaver no IBM Cloud - Guia de consulta rápida para o Microsoft Windows
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    [Suporte](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-support.html)
+    [Obtendo ajuda e suporte](/bare-metal/bare-metal-gettinghelp#gettinghelp)
 
     {: .topicgroup}
     Perguntas mais frequentes
-        [Perguntas mais frequentes: SAP no IBM Cloud](https://console.bluemix.net/docs/infrastructure/sap-netweaver/sap-faqs.html#faqs)
-        
+        [Perguntas mais frequentes: SAP no IBM Cloud](/infrastructure/sap-netweaver/sap-netweaver-faqs#faqs)
+
 {: .navgroup-end}

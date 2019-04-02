@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-12"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, database server, deployment
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -25,9 +26,9 @@ lastupdated: "2018-07-12"
 Armazenamento externo poderá ser incluído em seu servidor ou servidores provisionados se
 você desejar utilizá-lo como um dispositivo de backup ou usar uma captura instantânea para restaurar
 rapidamente seu banco de dados em um ambiente de teste. No exemplo, o armazenamento de bloco é usado para arquivar arquivos de log do banco de dados e backups on-line e off-line do banco de dados. O armazenamento de bloco mais rápido (10 IOPS por GB) foi selecionado para ajudar a assegurar um tempo
-mínimo de backup. Um armazenamento de bloco mais lento pode ser suficiente para suas necessidades. Para obter mais informações sobre o {{site.data.keyword.blockstoragefull}}, veja [Introdução ao Block Storage](https://console.bluemix.net/docs/infrastructure/BlockStorage/index.html#getting-started-with-block-storage).
+mínimo de backup. Um armazenamento de bloco mais lento pode ser suficiente para suas necessidades. Para obter mais informações sobre o {{site.data.keyword.blockstoragefull}}, veja [Introdução ao Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted).
 
-1. Efetue login no [{{site.data.keyword.cloud_notm}} portal do cliente de infraestrutura](https://control.softlayer.com/) com suas credenciais exclusivas.
+1. Efetue login no portal do cliente da infraestrutura do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} com suas credenciais exclusivas.
 2. Selecione **Armazenamento** > **Block Storage**.
 3. Clique em **Pedir armazenamento de bloco** no canto superior direito da página Block Storage.
 4. Selecione as características para suas necessidades de armazenamento. A Tabela 1 contém os
@@ -47,7 +48,7 @@ valores recomendados, incluindo 10 IOPS/GB para uma carga de trabalho de banco d
 5. Clique nas duas caixas de seleção e em **Fazer pedido**.
 
 ## Autorizando hosts
-{: authorize-hosts}
+{: #authorize-host}
 
 1. Clique em **Ações** à direita do LUN e selecione **Autorizar host** para acessar o armazenamento provisionado.
 2. Selecione **Dispositivos**; o **Tipo de dispositivo** é padronizado para Bare Metal Server. Clique em **Hardware** e selecione os nomes de host de seu servidor de banco de dados.
@@ -61,7 +62,7 @@ Na implementação de amostra, os dados recuperados da guia Armazenamento eram
    * Usuário: `SL01SU276540-H896345`
    * Senha: `EtJ79F4RA33dXm2q`
 
-Siga as etapas em [Conectando-se a LUNS do MPIO iSCSCI no Microsoft Windows](https://console.bluemix.net/docs/infrastructure/BlockStorage/accessing-block-storage-windows.html#connecting-to-mpio-iscsi-luns-on-microsoft-windows) para conectar seu armazenamento de bloco ao servidor de banco de dados usando os dados acima. Siga as etapas com cuidado; elas levam a um novo disco “offline” disponível
+Siga as etapas em [Conectando-se a LUNS do MPIO iSCSCI no Microsoft Windows](/docs/infrastructure/BlockStorage?topic=BlockStorage-mountingWindows#mountingWindows) para conectar seu armazenamento de bloco ao servidor de banco de dados usando os dados acima. Siga as etapas com cuidado; elas levam a um novo disco “offline” disponível
 para o seu servidor Windows.
 
-Agora é possível fazer com que o disco fique on-line e inicializá-lo. 
+Agora é possível fazer com que o disco fique on-line e inicializá-lo.

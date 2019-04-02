@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-08-07"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, application server, database server, three-tier
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -23,11 +24,11 @@ Um ambiente de três camadas é um cenário mais complexo que usa um servidor de
 
 | Etapa | Tarefa |
 | --- | --- |
-| 1 | [Pedindo seus servidores de 192 GB e de 32 GB para uma configuração de três camadas](/docs/infrastructure/sap-netweaver-ms-qrg/ms-set-up-infrastructure-three-tier.html) |
-| 2 | [Preparando o servidor para a instalação da SAP](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-server-256GB.html) |
-| 3 | [Particionamento e sistemas de arquivos](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-256GB.html) |
-| 4 | [Preparando a sua rede](/docs/infrastructure/sap-netweaver-ms-qrg/ms-prepare-network.html#network) |
-{: caption="Tabela 1. Visão geral do provisionamento" caption-side="top"} 
+| 1 | [Pedindo seus servidores de 192 GB e de 32 GB para uma configuração de três camadas](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_three_tier) |
+| 2 | [Preparando o servidor para a instalação da SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-prepare_256GB) |
+| 3 | [Particionamento e sistemas de arquivos](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems) |
+| 4 | [Preparando a sua rede](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network) |
+{: caption="Tabela 1. Visão geral do provisionamento" caption-side="top"}
 
 ## Próximas etapas
 
