@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-08-13"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver, three-tier
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -24,12 +25,11 @@ La configuración del primer ejemplo es la más pequeña posible, un servidor RA
 
 Utilice los enlaces siguientes para iniciar SAP NetWeaver en su trayecto de {{site.data.keyword.cloud_notm}}.
 
-  * [Suministro de un servidor de un solo nodo de 32 GB](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-32-GB-server-single-node.html)
-  * [Suministro de servidores de 192 GB y 32 GB en una configuración de tres capas](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-256-GB-32-GB-server-three-tier-setup.html)
-  * [Adición de almacenamiento externo](/docs/infrastructure/sap-netweaver-ms-qrg/ms-provisioning-external-storage-to-your-server.html)
-  * [Instalación de software y aplicaciones SAP](/docs/infrastructure/sap-netweaver-ms-qrg/ms-installing-your-SAP-landscape.html)
-  
+  * [Suministro de un servidor de un solo nodo de 32 GB](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-provisioning-a-32-gb-single-node-server)
+  * [Suministro de servidores de 192 GB y 32 GB en una configuración de tres capas](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install-256GB)
+  * [Adición de almacenamiento externo](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [Instalación de software y aplicaciones SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)
+
 ## Siguientes pasos
 
 Utilice los enlaces para aprender a suministrar y configurar {{site.data.keyword.cloud_notm}} SAP-certified Infrastructure.
-

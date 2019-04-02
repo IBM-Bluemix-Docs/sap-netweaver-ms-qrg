@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-09"
+  years: 2017, 2019
+lastupdated: "2019-03-01"
 
+keywords: SAP NetWeaver
+
+subcollection: sap-netweaver-ms-qrg
 
 ---
 
@@ -22,4 +23,4 @@ Se utiliza una IP pública para el acceso remoto, lo que significa que puede con
 
 ## Siguientes pasos
 
- [3. Particionamiento y sistemas de archivos](/docs/infrastructure/sap-netweaver-ms-qrg/ms-partition-32GB.html)
+ [3. Particionamiento y sistemas de archivos](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)
