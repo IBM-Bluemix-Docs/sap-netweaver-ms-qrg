@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 32 GB 単一ノード・サーバーのプロビジョン
+{: #provisioning-a-32-gb-single-node-server}
 
 表 1 のステップを使用して、{{site.data.keyword.cloud}} 環境で SAP NetWeaver 用の 32 GB 単一ノード・サーバーをプロビジョンします。
 
