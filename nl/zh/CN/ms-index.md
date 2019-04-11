@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver, three-tier
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 入门教程
+{: #getting-started-tutorial}
 
 {{site.data.keyword.cloud}} 环境的新客户希望查看快速入门格式的文档，而不是更详细的文档，以下指南为这类客户提供了简介。有两个样本配置：一个是 32 GB 单节点服务器；一个是部署了 192 GB 和 32 GB 服务器的三层设置。这些样本配置可帮助您完成订购过程，从而开始 SAP 安装。
 
