@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver, application server, database server, three-tier
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 3. 分割及檔案系統
+{: #3-partitioning-and-file-systems}
 
 針對三層範例，已訂購具有一個邏輯磁碟（在 RAID10 上）的 192 GB 伺服器（資料庫伺服器），以及具有一個邏輯磁碟（在 RAID 1 上）的 32 GB 伺服器（資料庫伺服器）。兩部伺服器都隨附一個等於磁碟大小總計的大型檔案系統。
 
