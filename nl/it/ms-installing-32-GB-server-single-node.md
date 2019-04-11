@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # Provisioning di un server a nodo singolo di 32 GB
+{: #provisioning-a-32-gb-single-node-server}
 
 Utilizza la procedura nella tabella 1 per eseguire il provisioning del tuo server a nodo singolo di 32 GB per SAP NetWeaver in un ambiente {{site.data.keyword.cloud}}.
 
