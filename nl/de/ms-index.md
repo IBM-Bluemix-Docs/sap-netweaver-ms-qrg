@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver, three-tier
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # Lernprogramm zur Einführung
+{: #getting-started-tutorial}
 
 Die folgende Anleitung dient der Einführung für Kunden, denen die {{site.data.keyword.cloud}}-Umgebung neu ist und die ein Schnelleinstiegsformat gegenüber einer ausführlichen Dokumentation bevorzugen. Zwei Beispielkonfigurationen - für einen 32-GB-Einzelknotenserver und für drei Schichten mit einem 192-GB- und einem 32-GB-Server - führen Sie durch den Bestellablauf bis zum Start der SAP-Installation.
 
