@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 32-GB-Einzelknotenserver bereitstellen
+{: #provisioning-a-32-gb-single-node-server}
 
 Gehen Sie anhand der Schritte in Tabelle 1 vor, um Ihren 32-GB-Einzelknotenserver für SAP NetWeaver in einer {{site.data.keyword.cloud}}-Umgebung bereitzustellen.
 
