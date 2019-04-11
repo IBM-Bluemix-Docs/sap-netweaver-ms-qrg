@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver, three-tier
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # Tutoriel d'initiation
+{: #getting-started-tutorial}
 
 Les conseils suivants offrent une présentation adressée aux clients qui utilisent un environnement {{site.data.keyword.cloud}} pour la première fois et préfèrent un format de démarrage rapide à une documentation plus détaillée. Deux exemples de configuration avec serveur à noeud unique et 32 Go de RAM et trois niveaux avec serveurs avec 192 et 32 Go de RAM vous aideront au cours du processus de commande jusqu'au lancement de l'installation SAP.
 
