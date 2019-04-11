@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-10"
 
 keywords: SAP NetWeaver, application server, database server, three-tier
 
@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 3. Partitionnement et systèmes de fichiers
+{: #3-partitioning-and-file-systems}
 
 Pour l'exemple à trois niveaux, un serveur avec 192 Go de RAM (serveur de base de données) doté d'un seul disque logique (sous RAID10) a été commandé, de même qu'un serveur avec 32 Go de RAM (serveur d'application) avec un seul disque logique (sous RAID 1). Les deux serveurs sont livrés avec un système de fichiers volumineux égal à la taille totale des disques.
 
