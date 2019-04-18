@@ -25,7 +25,7 @@ Utilice los pasos de la Tabla 1 para suministrar el servidor de un solo nodo de 
 | Paso | Tarea |
 | --- | --- |
 | 1 | [Realización del pedido del servidor de 32 GB](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [Preparación del servidor para la instalación de SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+| 2 | [Preparación del servidor para la instalación de SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 | 3 | [Particionamiento y sistemas de archivos](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="Tabla 1. Visión general del suministro" caption-side="top"}
 

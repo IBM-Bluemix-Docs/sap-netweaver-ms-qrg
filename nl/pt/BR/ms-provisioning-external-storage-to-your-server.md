@@ -26,7 +26,7 @@ subcollection: sap-netweaver-ms-qrg
 Armazenamento externo poderá ser incluído em seu servidor ou servidores provisionados se
 você desejar utilizá-lo como um dispositivo de backup ou usar uma captura instantânea para restaurar
 rapidamente seu banco de dados em um ambiente de teste. No exemplo, o armazenamento de bloco é usado para arquivar arquivos de log do banco de dados e backups on-line e off-line do banco de dados. O armazenamento de bloco mais rápido (10 IOPS por GB) foi selecionado para ajudar a assegurar um tempo
-mínimo de backup. Um armazenamento de bloco mais lento pode ser suficiente para suas necessidades. Para obter mais informações sobre o {{site.data.keyword.blockstoragefull}}, veja [Introdução ao Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted).
+mínimo de backup. Um armazenamento de bloco mais lento pode ser suficiente para suas necessidades. Para obter mais informações sobre o {{site.data.keyword.blockstoragefull}}, veja [Introdução ao Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started).
 
 1. Efetue login no portal do cliente da infraestrutura do [{{site.data.keyword.cloud_notm}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} com suas credenciais exclusivas.
 2. Selecione **Armazenamento** > **Block Storage**.

@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 2. Préparation de votre serveur pour votre installation SAP (32 Go)
+{: #2-preparing-your-server-for-your-sap-installation-32-gb}
 
 Une IP publique est utilisée pour l'accès distant, ce qui signifie que vous pouvez vous connecter à votre serveur via un client RDP (Remote Desktop), par exemple le client Windows MSTSC. Utilisez l'adresse IP publique affichée dans Device List et correspondant à votre unité. Le mot de passe administrateur est également affiché ; prenez soin de cliquer sur **Show Password** pour le voir.
 

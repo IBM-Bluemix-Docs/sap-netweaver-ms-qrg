@@ -25,7 +25,7 @@ subcollection: sap-netweaver-ms-qrg
 |단계 |태스크 |
 | --- | --- |
 |1 |[32GB 서버 주문](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-|2 |[SAP 설치를 위해 서버 준비](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+|2 |[SAP 설치를 위해 서버 준비](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 |3 |[파티셔닝 및 파일 시스템](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="표 1. 프로비저닝 개요" caption-side="top"}
 

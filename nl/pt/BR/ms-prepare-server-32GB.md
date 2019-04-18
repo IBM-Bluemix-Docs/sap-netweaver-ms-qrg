@@ -18,6 +18,7 @@ subcollection: sap-netweaver-ms-qrg
 {:table: .aria-labeledby="caption"}
 
 # 2. Preparando o servidor para a instalação da SAP (32 GB)
+{: #2-preparing-your-server-for-your-sap-installation-32-gb}
 
 Um IP público serve para acesso remoto, o que significa que é possível se conectar ao seu servidor por meio de um cliente Remote Desktop (RDP) (por exemplo, MSTSC do Microsoft Windows). Use o endereço IP público exibido na Lista de dispositivos de seu dispositivo. A senha do administrador para seu servidor também é exibida; certifique-se de clicar em **Mostrar senha** para vê-la.
 

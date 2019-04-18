@@ -85,7 +85,7 @@ BI.S3.NW32 (OS オプション) サーバーも**「毎時」**の請求で利�
 ## 独自ライセンスの使用
 {: #byol}
 
-独自のオペレーティング・システム・ライセンスを持っている場合は、ベンダーの指示に基づいて、そのライセンスを {{site.data.keyword.baremetal_short}} にインストールします。 詳しくは、[「オペレーティング・システムなし」オプション](/docs/bare-metal?topic=bare-metal-the-no-os-option)を参照してください。
+独自のオペレーティング・システム・ライセンスを持っている場合は、ベンダーの指示に基づいて、そのライセンスを {{site.data.keyword.baremetal_short}} にインストールします。 詳しくは、[「オペレーティング・システムなし」オプション](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os)を参照してください。
 
 ## 次のステップ
 

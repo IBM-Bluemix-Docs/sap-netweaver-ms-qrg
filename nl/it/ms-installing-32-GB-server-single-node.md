@@ -25,7 +25,7 @@ Utilizza la procedura nella tabella 1 per eseguire il provisioning del tuo serve
 | Passo | Attività |
 | --- | --- |
 | 1 | [Ordine del tuo server di 32 GB](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [Preparazione del tuo server per la tua installazione SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+| 2 | [Preparazione del tuo server per la tua installazione SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 | 3 | [Partizionamento e file system](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="Tabella 1. Panoramica di provisioning" caption-side="top"}
 

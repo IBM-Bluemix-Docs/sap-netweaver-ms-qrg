@@ -23,7 +23,7 @@ subcollection: sap-netweaver-ms-qrg
 ## 设置外部存储器
 {: #set_up_storage}
 
-如果想要将外部存储器用作备份设备或使用快照在测试环境中快速复原数据库，那么可以向供应的一个或多个服务器添加外部存储器。在示例中，块存储器用于归档数据库的日志文件以及联机和脱机备份数据库。选择了最快的块存储器 (10 IOPS/GB)，这有助于确保备份时间最短。较慢的块存储器可能已足够满足您的需求。有关 {{site.data.keyword.blockstoragefull}} 的更多信息，请参阅 [Block Storage 入门](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)。
+如果想要将外部存储器用作备份设备或使用快照在测试环境中快速复原数据库，那么可以向供应的一个或多个服务器添加外部存储器。在示例中，块存储器用于归档数据库的日志文件以及联机和脱机备份数据库。选择了最快的块存储器 (10 IOPS/GB)，这有助于确保备份时间最短。较慢的块存储器可能已足够满足您的需求。有关 {{site.data.keyword.blockstoragefull}} 的更多信息，请参阅 [Block Storage 入门](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started)。
 
 1. 使用您的唯一凭证登录到 [{{site.data.keyword.cloud_notm}} 基础架构客户门户网站 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
 2. 选择**存储器** > **Block Storage**。

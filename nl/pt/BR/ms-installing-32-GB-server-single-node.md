@@ -25,7 +25,7 @@ Use as etapas na Tabela 1 para provisionar seu servidor de único nó de 32 GB p
 | Etapa | Tarefa |
 | --- | --- |
 | 1 | [Pedindo seu servidor de 32 GB](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [Preparando o servidor para a instalação da SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+| 2 | [Preparando o servidor para a instalação da SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 | 3 | [Particionamento e sistemas de arquivos](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="Tabela 1. Visão geral do provisionamento" caption-side="top"}
 

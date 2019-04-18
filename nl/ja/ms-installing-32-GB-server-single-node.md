@@ -25,7 +25,7 @@ subcollection: sap-netweaver-ms-qrg
 | ステップ | タスク |
 | --- | --- |
 | 1 | [32 GB サーバーの注文](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [SAP インストール用のサーバーの準備](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+| 2 | [SAP インストール用のサーバーの準備](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 | 3 | [パーティショニングとファイル・システム](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="表 1. プロビジョンの概要" caption-side="top"}
 

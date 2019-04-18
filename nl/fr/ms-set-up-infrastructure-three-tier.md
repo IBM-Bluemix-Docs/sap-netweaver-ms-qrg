@@ -84,7 +84,7 @@ Une fois votre commande soumise, le serveur peut être utilisé pendant une dur�
 ## Apport de votre propre licence
 {: #byol}
 
-Lorsque vous disposez de votre propre licence de système d'exploitation, installez-le sur votre serveur {{site.data.keyword.baremetal_short}} en suivant les instructions du fournisseur. Pour plus d'informations, voir l'option [Sans système d'exploitation](/docs/bare-metal?topic=bare-metal-the-no-os-option).
+Lorsque vous disposez de votre propre licence de système d'exploitation, installez-le sur votre serveur {{site.data.keyword.baremetal_short}} en suivant les instructions du fournisseur. Pour plus d'informations, voir l'option [Sans système d'exploitation](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os).
 
 ## Etapes suivantes
 

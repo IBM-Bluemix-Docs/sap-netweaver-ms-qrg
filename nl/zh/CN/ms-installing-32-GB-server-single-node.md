@@ -26,7 +26,7 @@ subcollection: sap-netweaver-ms-qrg
 | --- | --- |
 |1 |[订购 32 GB 服务器](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB)
 |
-|2 |[准备服务器以用于 SAP 安装](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-)|
+|2 |[准备服务器以用于 SAP 安装](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb)|
 |3 |[分区和文件系统](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)|
 {: caption="表 1. 供应概述" caption-side="top"}
 

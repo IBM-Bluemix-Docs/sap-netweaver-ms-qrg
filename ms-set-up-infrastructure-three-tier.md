@@ -84,7 +84,7 @@ After the order is submitted, the server is, depending on your order, available 
 ## Bring your own license
 {: #byol}
 
-When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](/docs/bare-metal?topic=bare-metal-the-no-os-option).
+When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os).
 
 ## Next Steps
 

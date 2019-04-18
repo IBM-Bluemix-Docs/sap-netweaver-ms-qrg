@@ -23,7 +23,7 @@ subcollection: sap-netweaver-ms-qrg
 ## 設定外部儲存空間
 {: #set_up_storage}
 
-如果您要使用外部儲存空間作為備份裝置，或在測試環境中使用 Snapshot 快速還原資料庫，則可以將外部儲存空間新增至一個以上已佈建的伺服器。在範例中，使用區塊儲存空間來保存資料庫的日誌檔以及資料庫的線上和離線備份。已選取最快速的區塊儲存空間（每 GB 10 IOPS），協助確保最短備份時間。較慢的區塊儲存空間可能就符合您的需求。如需 {{site.data.keyword.blockstoragefull}} 的相關資訊，請參閱[開始使用區塊儲存空間](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)。
+如果您要使用外部儲存空間作為備份裝置，或在測試環境中使用 Snapshot 快速還原資料庫，則可以將外部儲存空間新增至一個以上已佈建的伺服器。在範例中，使用區塊儲存空間來保存資料庫的日誌檔以及資料庫的線上和離線備份。已選取最快速的區塊儲存空間（每 GB 10 IOPS），協助確保最短備份時間。較慢的區塊儲存空間可能就符合您的需求。如需 {{site.data.keyword.blockstoragefull}} 的相關資訊，請參閱[開始使用區塊儲存空間](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started#getting-started)。
 
 1. 使用唯一的認證來登入 [{{site.data.keyword.cloud_notm}} 基礎架構客戶入口網站 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
 2. 選取**儲存空間** > **區塊儲存空間**。

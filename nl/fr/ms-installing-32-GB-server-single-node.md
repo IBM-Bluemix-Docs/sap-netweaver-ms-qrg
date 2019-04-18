@@ -25,7 +25,7 @@ Utilisez les étapes décrites dans le tableau 1 pour mettre à disposition votr
 | Etape | Tâche |
 | --- | --- |
 | 1 | [Commande de votre serveur 32 Go](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [Préparation de votre serveur pour votre installation SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+| 2 | [Préparation de votre serveur pour votre installation SAP](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 | 3 | [Partitionnement et systèmes de fichiers](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="Tableau 1. Présentation de la mise à disposition" caption-side="top"}
 

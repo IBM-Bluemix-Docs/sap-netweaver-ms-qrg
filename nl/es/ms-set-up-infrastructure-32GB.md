@@ -83,7 +83,7 @@ Una vez enviado el pedido, el servidor estará disponible, dependiendo de su ped
 ## Traiga sus propias licencias
 {: #byol}
 
-Cuando tiene su propia licencia de sistema operativo, la instala en su {{site.data.keyword.baremetal_short}} basándose en las instrucciones del vendedor. Para obtener más información, consulte [La opción sin SO](/docs/bare-metal?topic=bare-metal-the-no-os-option).
+Cuando tiene su propia licencia de sistema operativo, la instala en su {{site.data.keyword.baremetal_short}} basándose en las instrucciones del vendedor. Para obtener más información, consulte [La opción sin SO](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os).
 
 ## Siguientes pasos
 

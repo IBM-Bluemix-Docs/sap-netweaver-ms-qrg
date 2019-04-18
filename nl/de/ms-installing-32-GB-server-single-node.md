@@ -25,7 +25,7 @@ Gehen Sie anhand der Schritte in Tabelle 1 vor, um Ihren 32-GB-Einzelknotenserve
 | Schritt | Task |
 | --- | --- |
 | 1 | [32-GB-Server bestellen](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [Server für die SAP-Installation vorbereiten](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb-) |
+| 2 | [Server für die SAP-Installation vorbereiten](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
 | 3 | [Partitionierung und Dateisysteme](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="Tabelle 1. Übersicht über die Bereitstellung" caption-side="top"}
 
