@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-07-17"
 
 keywords: SAP NetWeaver, ABAP, ASCS Instance, Database Instance, ABAP SAP Central Services, SWPM, application server, database server
 
@@ -39,7 +39,7 @@ After downloading the installation media, follow the standard SAP installation p
 1. Open the root folder of your SWPM-DVD or of your installation master DVD as Administrator, and run `sapinst`. The Welcome to SAP Installation page displays.
 2. Select **SAP NetWeaver 7.5** > **IBM DB2 for Linux, Unix, and Windows** > **SAP Systems** > **Application Server ABAP**.
 3. Open **Distributed System** and run **ASCS Instance** and **Database Instance** on the database server.
-4. Verify that `sapinst` successfully shared folders `\\sapmnt` and `\\user\sap\trans` after the ASCS Instance is installed for the next step to work.
+4. Verify that `sapinst` successfully shared folders `\\usr\sap\trans` and `\\sapmnt` after the ASCS Instance is installed for the next step to work.
 5. Run **Primary Application Server Instance** on the application server. Be sure to use the private addresses for the ASCS and the database hostnames during installation of the application server. This ensures that network traffic between the application server and ASCS, or database, path through the private network and not through the public network.
 
 You can now run your SAP installation according to the SAP installation instructions.
