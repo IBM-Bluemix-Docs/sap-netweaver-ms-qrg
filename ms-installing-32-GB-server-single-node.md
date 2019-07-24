@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-06-06"
 
 keywords: SAP NetWeaver
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver-ms-qrg
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -30,5 +30,6 @@ Use the steps in Table 1 to provision your 32 GB single-node server for SAP NetW
 {: caption="Table 1. Provisioning overview" caption-side="top"}
 
 ## Next Steps
+{: #32-GB-next-steps}
 
 Click a step in Table 1 to begin configuring your {{site.data.keyword.cloud_notm}} {{site.data.keyword.baremetal_short}}.

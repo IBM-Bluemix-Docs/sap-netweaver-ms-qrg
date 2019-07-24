@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-06"
 
 keywords: SAP NetWeaver
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver-ms-qrg
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -25,6 +25,8 @@ For the single-node example, a server with one logical disk (on RAID 1) was orde
 Regarding storage, the server does not require any further installation steps.
 
 ## Next Steps
+{: #partion-32GB-next-steps}
 
   * [Adding external storage to your {{site.data.keyword.baremetal_short}}](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+
   * [Installing your SAP applications and software](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-06"
 
 keywords: SAP NetWeaver
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver-ms-qrg
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -23,5 +23,6 @@ subcollection: sap-netweaver-ms-qrg
 A public IP is for remote access, which means you can connect to your server through a Remote Desktop (RDP) client (for example, Microsoft Windows’ MSTSC). Use the public IP address displayed in the Device List for your device. The administrator password for your server is also displayed; be sure to click **Show Password** to see it.
 
 ## Next Steps
+{: #prepare-32GB-install-next-steps}
 
  [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)

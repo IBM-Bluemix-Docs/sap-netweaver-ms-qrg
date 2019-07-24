@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-06-06"
 
 keywords: SAP NetWeaver, application server, database server, three-tier
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver-ms-qrg
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -25,5 +25,6 @@ For the three-tier example, a 192 GB server (database server) with one logical d
 Regarding storage, the server does not require any further installation steps.
 
 ## Next Steps
+{: #partition-file-system-next-steps}
 
 [4. Preparing your network](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)

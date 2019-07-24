@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-06-06"
 
 keywords: SAP NetWeaver, application server, database server
 
@@ -13,7 +13,7 @@ subcollection: sap-netweaver-ms-qrg
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -23,6 +23,7 @@ subcollection: sap-netweaver-ms-qrg
 A public IP is used for remote access, which means you can connect to your servers through a Remote Desktop (RDP) client (for example, Windows’ MSTSC). Use the public IP addresses that are displayed in the Device List (under the Device menu) for your device. The root passwords for your servers are also displayed; be sure to click **Show Password** to see them.
 
 ## Next Steps
+{: #prepare-256GB-next-steps}
 
  [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-3-partitioning-and-file-systems)
 
