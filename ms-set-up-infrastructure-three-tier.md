@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-03"
+lastupdated: "2019-07-29"
 
 keywords: SAP NetWeaver, bring your own license, BYOL, VLAN, application server, database server, three-tier, SAP certified servers
 
@@ -26,6 +26,8 @@ Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netwea
 ## Ordering your database server
 {: #order_db_servers}
 
+Use the following steps to order an SAP-certified server as your database server.
+
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com){: external} with your unique credentials.
 2. Click **Create resource** > **Compute** > **Bare Metal Server**.
 3. Click **Continue**. If you can't click **Continue**, you don't have the correct permissions to create a server. Check with your system administrator about your permissions.
@@ -36,16 +38,12 @@ Follow the steps in [Ordering your 32 GB server](/docs/infrastructure/sap-netwea
 8. The data centers displayed under **Location** depend on product availability within a particular data center. Leave the default Location of **NA South DAL10-Dallas**.
 9. Click **All servers** > **SAP certified**.
 
-## Configuring your server
+## Configuring your database server
 {: #configure_server}
 
-Select your SAP-certified server and OS.
+Use the following steps to configure your database server and its OS.
 
 1. Select **CPU Model BI.S3.NW192 (OS Options)**. For information on how to decipher the server names, see [Provisioning your {{site.data.keyword.baremetal_short}} using the {{site.data.keyword.cloud_notm}} console](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#using-console).
-
-  The BI.S3.NW32 (OS Options) server is also available for **Hourly** billing.
-  {: note}
-
 2. **RAM** defaults to a predefined value based on your server selection and cannot be changed.
 3. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it's provisioned. The default is **None**.
 4. Select **Microsoft** as your **Image** (OS). The default is **2016 Standard (64 bit)-HVM**.
@@ -56,7 +54,7 @@ Select your SAP-certified server and OS.
 ## Adding storage disks
 {: #adding-storage-disks}
 
-Add a second 2 TB SATA drive.
+Use the following steps to add a second 2 TB SATA drive for your database server.
 
 1. For **Disk 1**, click the Menu icon ![Menu icon](../../icons/action-menu-icon.svg) > **Advanced configuration** and verify that **Primary disk partition** is set to the default of **Windows Basic**. Click **OK**.
 2. Click **Add new**.
@@ -70,8 +68,10 @@ Add a second 2 TB SATA drive.
 For more information on Block Storage, see [Learn about {{site.data.keyword.blockstorageshort}}](/docs/infrastructure/BlockStorage?topic=BlockStorage-About).
 {: note}
 
-## Network interface
+## Setting up the network interface
 {: #network-options}
+
+Use the following steps to set up the network interface for your database server.
 
 1. Select **1 Gbps Redundant Public and Private Network Uplinks** for **Uplink Port Speed**.
 2. Select the values in Table 1 for the following fields:
