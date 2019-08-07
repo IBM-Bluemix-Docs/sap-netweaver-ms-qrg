@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-08-06"
 
 keywords: SAP NetWeaver, ABAP, ASCS instance, ABAP SAP Central Services, application server, database server, three-tier
 
@@ -27,6 +27,8 @@ If you are planning to install a three-tier setup, you need to prepare the netwo
 Figure 1. Sample of three-tier setup
 
 The network setup of the deployed servers outlined in Figure 1 is found under Network Connections in Microsoft Windows. In the sample setup, `10.17.139.35` is the private IP of the database server found under Network Connections - Private Network-Teamed, and is one of the IP ranges from RFC 1597. You can determine the IP of the appication server, too, and add both IPs to both servers' `host files` under `C:\Windows\System32\drivers\etc`.
+
+In the {{site.data.keyword.cloud}} console, you can find the private IP of the database server under Menu icon ![Menu icon](../../icons/icon.hamburger.svg) > Resource List > Devices. Select the applicable device and the IP address displays in the respective column.
 
 ## Next Steps
 {: #network-next-steps}
