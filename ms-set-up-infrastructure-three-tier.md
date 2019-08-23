@@ -39,20 +39,20 @@ Use the following steps to order an SAP-certified server as your database server
 9. Click **All servers** > **SAP certified**.
 
 ## Configuring your database server
-{: #configure_server}
+{: #configure_server-192GB}
 
 Use the following steps to configure your database server and its OS.
 
-1. Select **CPU Model BI.S3.NW192 (OS Options)**. For information on how to decipher the server names, see [Provisioning your {{site.data.keyword.baremetal_short}} using the {{site.data.keyword.cloud_notm}} console](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#using-console).
+1. Select **CPU Model BI.S3.NW192 (OS Options)**. For information on how to decipher the server names, see [Provisioning your {{site.data.keyword.baremetal_short}} using the {{site.data.keyword.cloud_notm}} console](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#order-server).
 2. **RAM** defaults to a predefined value based on your server selection and cannot be changed.
 3. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it's provisioned. The default is **None**.
 4. Choose **Microsoft** as your **Image** (OS), and select **2016 Standard (64 bit)-HVM**.
 
-  If you're bringing your own license (BYOL) for your OS, select **No OS**. For more information, see [Bring your own license](#byol).
+  If you're bringing your own license (BYOL) for your OS, select **No OS**. For more information, see [Bring your own license](#byol-192GB).
   {: note}
 
 ## Adding storage disks
-{: #adding-storage-disks}
+{: #adding-storage-disks-192GB}
 
 Use the following steps to add a 2 TB SATA drive for your database server.
 
@@ -61,7 +61,7 @@ Use the following steps to add a 2 TB SATA drive for your database server.
 3. **Disks**, **Hot Spare**, and **Disk Media** have default values. Select a **Disk Size** that covers the total amount of storage you need.
 
 ## Setting up the network interface
-{: #network-options}
+{: #network-options-192GB}
 
 Use the following steps to set up the network interface for your database server.
 
@@ -93,7 +93,7 @@ You are redirected to a page with your order number. You can print the page, bec
 After the order is submitted, the server, depending on your order, is available for use within one to four hours. You can check Device Details from the {{site.data.keyword.cloud_notm}} console (Menu icon ![Menu icon](../../icons/icon_hamburger.svg) > Resource List > Devices) for a status of the provisioning steps. Click the **Device Name** that matches your given Hostname and Domain to see its status.
 
 ## Bring your own license
-{: #byol}
+{: #byol-192GB}
 
 When you have your own operating system license, you install it on your {{site.data.keyword.baremetal_short}} based on the vendor's instructions. For more information, see [The no OS option](/docs/bare-metal?topic=bare-metal-bm-no-os#bm-no-os).
 
