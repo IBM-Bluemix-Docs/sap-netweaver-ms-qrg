@@ -30,7 +30,7 @@ You need an SAP S-user ID and Download Authorization to download the DVDs. For m
 1. Log in to the [SAP Support Portal](https://support.sap.com/en/index.html){: external}, click **Download Software**, and download the required DVDs to a local share drive.
 2. Transfer the files to your provisioned server.
 
-Another option is to download the [SAP Software Download Manager ![External link icon](../icons/launch-glyph.svg "External link icon")](https://support.sap.com/en/my-support/software-downloads.html#section_995042677){: new_window}, install it on your target server, and directly download the DVD images to the server.
+Another option is to download the [SAP Software Download Manager](https://support.sap.com/en/my-support/software-downloads.html#section_995042677){: external}, install it on your target server, and directly download the DVD images to the server.
 
 ## Installing SAP software
 {: #install_software}
