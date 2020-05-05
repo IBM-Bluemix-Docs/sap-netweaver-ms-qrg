@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-23"
+  years: 2017, 2020
+lastupdated: "2020-05-05"
 
 keywords: SAP NetWeaver, bring your own license, BYOL, VLAN, set up 32GB infrastructure, bare metal server
 
@@ -39,7 +39,7 @@ subcollection: sap-netweaver-ms-qrg
 
 Select your SAP-certified server and OS.
 
-1. Select **CPU Model BI.S3.NW32 (OS Options)**. For information on how to decipher the server names, see [Provisioning your {{site.data.keyword.baremetal_short}} using the {{site.data.keyword.cloud_notm}} console](/docs/infrastructure/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#order-server).
+1. Select **CPU Model BI.S3.NW32 (OS Options)**. For information on how to decipher the server names, see [Provisioning your {{site.data.keyword.baremetal_short}} using the {{site.data.keyword.cloud_notm}} console](/docs/sap-netweaver?topic=sap-netweaver-set_up_infrastructure#order-server).
 2. **RAM** defaults to a predefined value based on your server selection and cannot be changed.
 3. Enter an optional public key for your **SSH key**, which you can use to log in to your server after it's provisioned. The default is **None**.
 4. Choose **Microsoft** as your **Image** (OS) and select **2016 Standard (64 bit)-HVM**.
@@ -89,6 +89,6 @@ When you have your own operating system license, you install it on your {{site.d
 ## Next Steps
 {: #32GB-set-up-next-steps}
 
-  [2. Preparing your server for your SAP installation](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb)
+  [2. Preparing your server for your SAP installation](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb)
 
-  [3. Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)
+  [3. Partitioning and filesystems](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB)

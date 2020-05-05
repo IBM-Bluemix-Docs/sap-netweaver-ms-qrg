@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-06"
+  years: 2017, 2020
+lastupdated: "2020-05-05"
 
 keywords: SAP NetWeaver
 
@@ -24,9 +24,9 @@ Use the steps in Table 1 to provision your 32 GB single-node server for SAP NetW
 
 | Step | Task |
 | --- | --- |
-| 1 | [Ordering your 32 GB server](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
-| 2 | [Preparing your server for your SAP installation](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
-| 3 | [Partitioning and filesystems](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
+| 1 | [Ordering your 32 GB server](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_32GB) |
+| 2 | [Preparing your server for your SAP installation](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-2-preparing-your-server-for-your-sap-installation-32-gb) |
+| 3 | [Partitioning and filesystems](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-partition_32GB) |
 {: caption="Table 1. Provisioning overview" caption-side="top"}
 
 ## Next Steps

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-06"
+  years: 2017, 2020
+lastupdated: "2020-05-05"
 
 keywords: SAP NetWeaver
 
@@ -27,6 +27,6 @@ Regarding storage, the server does not require any further installation steps.
 ## Next Steps
 {: #partion-32GB-next-steps}
 
-  * [Adding external storage to your {{site.data.keyword.baremetal_short}}](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [Adding external storage to your {{site.data.keyword.baremetal_short}}](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
 
-  * [Installing your SAP applications and software](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)
+  * [Installing your SAP applications and software](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)

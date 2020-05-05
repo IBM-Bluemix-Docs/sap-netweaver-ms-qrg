@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-07-03"
+  years: 2017, 2020
+lastupdated: "2020-05-05"
 
 keywords: SAP NetWeaver, three-tier
 
@@ -26,10 +26,10 @@ The first configuration sample is the smallest one possible—a single node 32 G
 
 Use the following links to begin your SAP NetWeaver on {{site.data.keyword.cloud_notm}} journey.
 
-  * [Provisioning a 32 GB single-node server](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-provisioning-a-32-gb-single-node-server)
-  * [Provisioning 192 GB and 32 GB servers in a three-tier setup](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install-256GB)
-  * [Adding external storage](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
-  * [Installing SAP applications and software](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)
+  * [Provisioning a 32 GB single-node server](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-provisioning-a-32-gb-single-node-server)
+  * [Provisioning 192 GB and 32 GB servers in a three-tier setup](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install-256GB)
+  * [Adding external storage](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-storage)
+  * [Installing SAP applications and software](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-install_landscape)
 
 ## Next Steps
 {: #getting-started-next-steps}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-06"
+  years: 2017, 2020
+lastupdated: "2020-05-05"
 
 keywords: SAP NetWeaver, application server, database server, three-tier
 
@@ -27,4 +27,4 @@ Regarding storage, the server does not require any further installation steps.
 ## Next Steps
 {: #partition-file-system-next-steps}
 
-[4. Preparing your network](/docs/infrastructure/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)
+[4. Preparing your network](/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-network)
