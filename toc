@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sap-netweaver-ms-qrg" category="compute" audience="compute" href="/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-getting-started-tutorial" product-page="https://www.ibm.com/cloud/sap" path="sap-netweaver-ms-qrg"}
+{: .toc subcollection="sap-netweaver-ms-qrg" category="compute" audience="compute" href="/docs/sap-netweaver-ms-qrg?topic=sap-netweaver-ms-qrg-getting-started" product-page="https://www.ibm.com/cloud/sap" path="sap-netweaver-ms-qrg"}
 SAP NetWeaver on IBM Cloud - Quick Reference Guide for Microsoft Windows
 
     {: .navgroup id="learn"}
