@@ -40,7 +40,7 @@ The following is an example of downloading the applicable SAP NetWeaver software
 
 After downloading the installation media, follow the standard SAP installation procedure documented in the SAP installation guide for your SAP version and components, and the corresponding SAP Notes. Fore more information, see [SAP Installation Guide](https://help.sap.com/viewer/nwguidefinder?gf-task=Install%20a%20new%20system&gf-nwrelease=SAP%20NetWeaver%207.5){: external} (search for the guides based on the Windows OS) and [SAP Notes](https://support.sap.com/en/index.html){: external}. SAP Notes requires an SAP S-user ID.
 
-1. Open the root folder of your SWPM-DVD or of your installation master DVD as Administrator, and run `sapinst`. The Welcome to SAP Installation page displays.
+1. Open the root folder of your SWPM-DVD or of your installation DVD as Administrator, and run `sapinst`. The Welcome to SAP Installation page displays.
 2. Select **SAP NetWeaver 7.5** > **IBM DB2 for Linux, Unix, and Windows** > **SAP Systems** > **Application Server ABAP**.
 3. Open **Distributed System** and run **ASCS Instance** and **Database Instance** on the database server.
 4. Verify that `sapinst` successfully shared folders `\\usr\sap\trans` and `\\sapmnt` after the ASCS Instance is installed for the next step to work.
